@@ -1,1 +1,2 @@
 print(slovo.startswith("pra))
+print(slovo.endswith(slovo))
