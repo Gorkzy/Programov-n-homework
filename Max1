@@ -1,2 +1,20 @@
-print(slovo.startswith("pra))
-print(slovo.endswith(slovo))
+#Uživatel zadá řetězec. Spočítejte počet písmen a číslic v řetězci. Vytiskněte oba výsledky."
+# retezec = input("Zadejte řetězec: ")
+
+# pocet_pismen = 0
+# pocet_cisel = 0
+
+# for znak in retezec:
+#     if znak.isalpha():
+#         pocet_pismen += 1
+#     elif znak.isdigit():
+#         pocet_cisel += 1
+
+# print("Počet písmen:", pocet_pismen)
+# print("Počet číslic:", pocet_cisel)
+ 
+slovo = "krocan"
+print(slovo[2:5:3])
+print(slovo[2:3])
+print(slovo[3])
+print(slovo[::-1])
