@@ -58,3 +58,4 @@
 text = input("Zadej text: ")
 pocet_vet = text.count(".")
 print("Počet vět v textu je:", pocet_vet)
+help(print)
