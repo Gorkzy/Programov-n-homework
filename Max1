@@ -13,8 +13,48 @@
 # print("Počet písmen:", pocet_pismen)
 # print("Počet číslic:", pocet_cisel)
  
-slovo = "krocan"
-print(slovo[2:5:3])
-print(slovo[2:3])
-print(slovo[3])
-print(slovo[::-1])
+# slovo = "krocan"
+# print(slovo[2:5:3])
+# print(slovo[2:3])
+# print(slovo[3])
+# print(slovo[::-1])
+# myList = [1,2,3,4,":)"]
+# print(myList)
+# print(myList[2:5])
+# for _ in myList[0:5]:
+#     print(_)
+# seznam = [1,2,3,4]
+# for _ in seznam:
+#     print(_)
+# print("\n")
+# seznam.append("pes")
+# for _ in seznam:
+#     print(_)
+
+# seznam.insert(4,5)
+# print(seznam)
+# seznam.remove("pes")
+# print(seznam)
+# seznam.pop(-1)
+# print(seznam)
+# seznam.append("kočka")
+# print(seznam)
+# x = 4       # x is of type int
+# x = "Sally" # x is now of type str
+# print(x)
+# def is_palindrom(text):
+#   text = text.lower()
+#   return text == text[::-1]
+# text = input("Napis text: ")
+# if is_palindrom(text):
+#   print(text, "je palindrom.")
+# else:
+#   print(text, "není palindrom.")
+# text = input("zadej text: ")
+# vyhrazena_slova = input("zadej vyhrazena slova (oddělena carkami): ").split(",")
+# for slovo in vyhrazena_slova:
+#   text = text.replace(slovo, slovo.upper())
+# print(text)
+text = input("Zadej text: ")
+pocet_vet = text.count(".")
+print("Počet vět v textu je:", pocet_vet)
