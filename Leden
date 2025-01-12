@@ -1,0 +1,121 @@
+# vyska_cm = int(input("Zadej vysku:"))
+# vyska = vyska_cm/100
+# vaha = int(input("Zadej vahu:"))
+# bmi=vaha / (vyska ** 2)
+# if bmi < 20:
+#     category = "podváha"
+# elif bmi < 25:
+#     category = "normální"
+# elif bmi < 30:
+#     category = "nadměrná"
+# else:
+#     category = "obézní"
+# print(f"Vaše bmi je {bmi:.2f}")
+# print(f"Vaše kategorie je {category}")
+# def tisk_secti(a,b):
+#     print(a+b)
+# def vrat_secti(a,b):
+#     return a+b
+# int1=5
+# int2=6
+# tisk_secti(int1,int2)
+# print(vrat_secti(int1,int2))
+# def calculate_bmi(weight, height):
+#     return weight / (height ** 2)
+# def get_bmi_category(bmi_val):
+#     if bmi_val < 20:
+#         category=  "podváha"
+#     elif bmi_val < 25:
+#         category= "normální hmotnost"
+#     elif bmi_val < 30:
+#         category= "nadváha"
+#     else:
+#         category= "obezita"
+#     return category
+# vaha = float(input("Zadejte svou hmotnost v kilogramech: "))
+# vyska = float(input("Zadejte svou výšku v metrech: "))
+# # BMI
+# bmi = calculate_bmi(vaha, vyska)
+# category = get_bmi_category(bmi)
+# print(f"Vaše BMI je: {bmi:.2f} a Spadáte do kategorie: {category}")
+# student=['Bob', 19, 95]
+# users=['admin','teacher','manager']
+# template="Jméno: {}; věk: {}; skóre: {}."
+# while True:
+#     print("1-print info")
+#     print("2-mofify info")
+#     print("3-exit")
+#     userChoice=input("Vyberte položku menu: ")
+#     if userChoice=="1":
+#         user=input("Login:")
+#         if user in users:
+#             print("Aktuální informace:")
+#             print(template.format(student[0],student[1], student[2]))
+#     elif userChoice=="2":
+#         if user in users:
+#             print("Aktuální informace:")
+#             print(template.format(student[0],student[1], student[2]))
+#             userAnsw=input("Změnit tuto informaci:y-n?")
+#             if userAnsw=="y":
+#                 name=input("Vložte nové jméno:")
+#                 age=int(input("Zadejte nový věk:"))
+#                 scores=input("Zadejte nové skóre:")
+#                 student[0]=jméno
+#                 student[1]=věk
+#                 student[2]=skóre
+#                 print(template.format(student[0],student[1], student[2]))
+#     elif userChoice=="3":
+#         print("Ahoj!")
+#         break
+#     else:
+#         print("Chyba: špatná položka nabídky!") 
+#     if user in users:
+#     print("Aktuální informace:")
+#     print(template.format(student[0],student[1], student[2]))
+# import random
+# for i in range(2):
+#     print("krok ", i+1)
+#     print(random.randint(1,5))
+#     print(random.randint(-3,2))
+#     print(random.randint(-10,-6))
+# import random
+# L=[1,34,67,89]
+# for i in range(3):
+#     print(random.choice(L))
+#     print(random.choice(['red','blue','green','white']))
+# def printMsg():
+#     print("Ahoj!")
+#     print("Vítejte!!!")
+# printMsg()
+# def calculate(a,b,c):
+#     print("Počítáme!")
+#     print (a+b*c**2)
+# x=5
+# y=2
+# z=3
+# calculate(x,y,z)
+# calculate(x,y,5)
+# calculate(1,7,10)
+# def checkCustomer(customer, customers):
+#     result=0
+#     print("Pozice klienta v seznamu:")
+#     for i in range(len(customers)):
+#         if customers[i]==customer:
+#             print(i)
+#             result+=1
+#     return result
+# customerList=['Bob','Anna','Joe','Bob','Nick']
+# myCustomer='Bob'
+# if checkCustomer(myCustomer, customerList)>1:
+#     print("Zákazník", myCustomer, "dostane slevu")
+# def modifyName2(userName):
+#     newName1=userName.upper()
+#     newName2=userName.lower()
+#     return newName1, newName2
+# name=input("Zadejte své jméno:")
+# nameUpper, nameLower=modifyName2(name)
+# print(nameUpper)
+# print(nameLower)
+# myNumbers=[2, 2.5, 4.56,23]
+# for num in myNumbers:
+#     print((lambda x:x+10)(num))
