@@ -119,3 +119,18 @@
 # myNumbers=[2, 2.5, 4.56,23]
 # for num in myNumbers:
 #     print((lambda x:x+10)(num))
+# číslo = int(input("Zde zadej číslo:"))
+# if číslo > 0:
+#             print("Číslo je kladné")
+# elif číslo < 0:
+#             print("Číslo je záporné")
+# else:
+#     print("Číslo je nula")
+# cislo1 = int(input("Zde zadej první číslo:"))
+# cislo2 = int(input("Zde zadej druhé číslo:"))
+# if cislo1 > cislo2:
+#     print("První číslo je větší než druhé")
+# elif cislo1 < cislo2:
+#     print("Druhé číslo je větší než první")
+# else:
+#     print("Čísla jsou stejná")
