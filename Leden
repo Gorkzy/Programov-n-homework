@@ -134,3 +134,428 @@
 #     print("Druhé číslo je větší než první")
 # else:
 #     print("Čísla jsou stejná")
+# vek = int(input("Zde zadej svůj věk:"))
+# if 18 <= vek <= 30:
+#     print("Mužeš do klubu")
+# else:
+#     print("Nemůžeš do klubu")
+
+# vek = int(input("Zde zadej svůj věk:"))
+# student = str(input("Napiš Ano pokud jsi student, Ne jinak:")).lower()
+# if vek >= 60 or student == "ano":
+#     print("Můžeš do klubu")
+# else:
+#     print("Nemužeš do klubu")
+# cislo = int(input("Zadej číslo: "))
+
+# if not (cislo >= 0):  # Kontrola, zda číslo není nezáporné
+#     print("Číslo je záporné.")
+# else:
+#     print("Číslo není záporné.")
+
+# def pridat_seznam(seznam, prvek_k_pridani):
+#     while prvek_k_pridani in seznam:
+#         seznam.remove(prvek_k_pridani)
+#     return seznam
+# def ubrat_seznam(seznam, prvek_k_odstraneni):
+#     while prvek_k_odstraneni in seznam:
+#         seznam.remove(prvek_k_odstraneni)
+#     return seznam
+# muj_seznam = [1, 2, 3, 2, 4, 2]  
+# print("Původní seznam:", muj_seznam)
+
+# prvek_k_odstraneni = 2
+# prvek_k_pridani = 5
+
+# upraveny_seznam = pridat_seznam(muj_seznam, prvek_k_pridani)
+# print("Upravený seznam:", upraveny_seznam)
+
+
+# muj_seznam2 = [1, 2, 3, 4]
+# print("Původní seznam:", muj_seznam2)
+
+# prvek_k_odstraneni = 7 
+# prvek_k_pridani = 5
+
+# upraveny_seznam2 = ubrat_seznam(muj_seznam2, prvek_k_odstraneni)
+# print("Upravený seznam:", upraveny_seznam2)
+# def mat_operace(a,b,c):
+#     soucet= a + b + c
+#     soucin = a * b * c
+#     odecet = a - b - c
+#     return soucet, soucin, odecet
+# print(mat_operace(1,2,3))
+
+# s1, s2, s3 = mat_operace(1,2,3)
+# print(s1,s2,s3)
+
+# my_Tuple = ("Ing.","Maxim","Pachomov")
+# print(my_Tuple[0:])
+
+# my_set = {"Maxim","Pachomov","Je",(1,2),"Šulín"}
+# print(users)
+# def spocitej_vyskyt_znaku(veta):
+    
+#     if not veta:  
+#         return {}
+
+#     vyskyt = {}
+#     for znak in veta:
+        
+#         znak = znak.lower()  
+#         if znak.isalnum():
+#             vyskyt[znak] = vyskyt.get(znak, 0) + 1
+
+#     serazeny_vyskyt = dict(sorted(vyskyt.items()))
+
+#     return serazeny_vyskyt  
+# veta5 = "Max je kopyto jak cyp"
+# vyskyt5 = spocitej_vyskyt_znaku(veta5)
+# print(f"Výskyt znaků ve větě '{veta5}': {vyskyt5}")
+# my_dict = {"Jmeno": 1, "prijmeni": 2, "stav": 3}
+# print(my_dict["Jmeno"])  
+# print(my_dict)
+# print(my_dict.keys())
+# print(my_dict.values()) 
+# print(my_dict.items())   
+# book_dict = {"Kniha1": "Autor1", "Kniha2": "Autor2", "Kniha3": "Autor3"}
+# book_dict["Kniha1"] = "Nový Autor"
+# book_dict.pop ("Kniha2")
+# book_dict.update ({"Kniha4": "Autor4", "Kniha5": "Autor5"})
+# for i in book_dict:
+#     print(i, book_dict[i])
+# Smyčky  
+# seznam = [1, 2, 3, 4, 5]
+# for cislo in seznam:
+#     print(cislo)
+
+# i = 1
+# while i <= 5:
+#     print(i)
+# i += 1
+
+# heslo = "tajne"
+# zadano = ""
+
+# while zadano != heslo:
+#     zadano = input("Zadej heslo: ").lower ()
+
+# print("Správné heslo!")
+
+# for i in range(10):
+#     if i == 5:
+#         break  # Smyčka se ukončí, když i = 5
+#     print(i)
+       
+# for i in range(5):
+#     if i == 2:
+#         continue  # Přeskočí číslo 2
+#     print(i)
+# for i in range(3):
+#     print(i)
+# else:
+#     print("Smyčka dokončena!")
+
+
+# for cislo in range(7, 101, 7):
+#     print(cislo)
+
+# nasobky_sedmi = list(range(7, 101, 7))
+# print(nasobky_sedmi)
+# soucet = 0
+# cislo = 1
+
+# while cislo <= 50:
+#     soucet += cislo
+#     cislo += 1
+
+# print("Součet čísel od 1 do 50 je:", soucet)
+# soucet = 0
+# for cislo in range(1, 51):
+#     soucet += cislo
+
+# print("Součet čísel od 1 do 50 je:", soucet)
+# soucet = 0
+# cislo = 1
+
+# while cislo <= 50:
+#     soucet += cislo
+#     cislo += 3  # Přeskočí 2 čísla
+
+# print("Součet každého třetího čísla od 1 do 50 je:", soucet)
+# jmena = ["Adam", "Barbora", "Alex", "Daniel", "Anna"]
+
+# for jmeno in jmena:
+#     if jmeno.startswith("A"):
+#         print(jmeno)
+
+# zacina_na_a = []
+# for jmeno in jmena:
+#     if jmeno.startswith("A"):
+#         zacina_na_a.append(jmeno)
+
+# print(zacina_na_a)
+
+# import pandas as pd
+# import requests
+
+# # Nahraďte 'YOUR_API_KEY' svým skutečným API klíčem
+# url = 'https://api.your-exchange.com/v1/prices/xrp-usd'
+# response = requests.get(url, headers={'X-API-KEY': 'YOUR_API_KEY'})
+# data = response.json()
+
+# # Převedení dat do DataFrame
+# df = pd.DataFrame(data['data'])
+# df['timestamp'] = pd.to_datetime(df['timestamp'], unit='s')
+# df.set_index('timestamp', inplace=True)
+
+# Zobrazení posledních 10 řádků
+# 
+
+# def print_format_text():
+#     quote = ("\"Don't compare yourself with anyone in this world…\n\n"
+#              "if you do so, you are insulting yourself.\"\n\n"
+#              "                                         Bill Gates")
+#     print(quote)
+# print_format_text()
+
+# def zobraz_cisla(start, end):
+#     for number in range(start + 1, end):
+#         if number % 2 == 0:
+#             print(number)
+# zobraz_cisla(1,11)
+# def print_čtverec(side_length, symbol, is_solid): 
+#     for row in range(side_length):
+#         if is_solid or row == 0 or row == side_length - 1:
+#             print(symbol * side_length)
+#         else:
+#             print(symbol + " " * (side_length - 2) + symbol)
+# # print_čtverec(5, '*', True)  
+# print_čtverec(5, '*', False)  
+# def najdi_nejmensi(a, b, c, d, e):
+#     return min(a, b, c, d, e)
+# print(najdi_nejmensi(6,2,3,6,2))
+# def soucin_rozsahu(start, end):
+#     if start > end:
+#         start, end = end, start
+#     product = 1
+#     for number in range(start, end + 1):
+#         product *= number
+#     return product
+# print(soucin_rozsahu(5, 25)) 
+# print(soucin_rozsahu(25, 5))
+# def spocitej_cisla(number):
+#     return len(str(abs(number)))
+# print(spocitej_cisla(34552722111116))
+# def je_palindrom(cislo):
+#     cislo_str = str(cislo)
+#     return cislo_str == cislo_str[::-1]
+# print(je_palindrom(123321))  
+# print(je_palindrom(421987))  
+# def print_format_text():
+#     format = ("\"Don't compare yourself with anyone in this world…\n\n"
+#              "if you do so, you are insulting yourself.\"\n\n"
+#              "                                         Bill Gates")
+#     print(format)
+# print_format_text()
+
+# tuple1 = (5, 2, 6, 4)
+# tuple2 = (3, 4, 5, 6)
+# tuple3 = (4, 9, 6, 7)
+# spolecne_cisla = set(tuple1) & set(tuple2) & set(tuple3)
+# result = list(spolecne_cisla)
+# print("Prvky, které jsou ve všech třech n-ticích:", result)
+
+# def unikatni_cisla(tuple1, tuple2, tuple3):
+#     set1 = set(tuple1)
+#     set2 = set(tuple2)
+#     set3 = set(tuple3)
+
+#     unikat1 = tuple(set1 - set2 - set3)  # Prvky v tuple1, ktoré nie sú v tuple2 ani v tuple3
+#     unikat2 = tuple(set2 - set1 - set3)  # Prvky v tuple2, ktoré nie sú v tuple1 ani v tuple3
+#     unikat3 = tuple(set3 - set1 - set2)  # Prvky v tuple3, ktoré nie sú v tuple1 ani v tuple2
+
+#     return unikat1, unikat2, unikat3
+
+# test1 = (1, 2, 3, 4, 5)
+# test2 = (3, 4, 5, 6, 7)
+# test3 = (5, 7, 8, 9, 1)
+
+# unikat1, unikat2, unikat3 = unikatni_cisla(test1, test2, test3)
+
+# print(f"Unikátne prvky pre tuple1: {unikat1}")
+# print(f"Unikátne prvky pre tuple2: {unikat2}")
+# print(f"Unikátne prvky pre tuple3: {unikat3}")
+# tupl1 = (1, 2, 3, 4)
+# tupl2 = (1, 5, 3, 6)
+# tupl3 = (1, 8, 3, 7)
+# spolecne_cisla = [a for a, b, c in zip(tupl1, tupl2, tupl3) if a == b == c]
+# print("Prvky, které jsou ve všech třech n-ticích na stejné pozici:", spolecne_cisla)
+# text="Ahoj světe!"
+# print(len(text*3))
+# text="Ahoj světe!"
+# print(text[0])
+# print(text[-1])  # poslední znak
+# print(text[-2])  # druhý poslední znak
+# print(text[-3])  # třetí poslední znak
+# print(text[0:5]) 
+# print(text.lower())
+# print(text.upper())  # všechna písmena velkými
+# print(text.strip())
+# print("Ahoj světe".startswith("Ah"))
+# print("Ahoj světe".endswith("te"))  # poslední znak
+# print(text.replace("světe","Pythone"))
+# print(text.split())  # rozdělí text na seznam slov
+# print(text.split(" "))  # rozdělí text na seznam slov
+# print(text.split("o"))  # rozdělí text na seznam slov
+# print(text.split("!",1))  # rozdělí text na seznam slov, ale pouz
+# print(text.split("!",1))  # rozdělí text na seznam slov, ale pou
+# cisla = [1, 2, 3, 4, 5]
+# jmena = ["Anna", "Petr", "Jana"]
+# mix = [1, "Ahoj", True]
+# print(cisla[-1])
+# jmena.append("Eliška")
+# print(jmena)
+# jmena.insert(0,"Maxim")
+# print(jmena)
+# jmena.pop(1)
+# print(jmena)
+# jmena.remove("Anna")
+# print(jmena)
+# del jmena[2]
+# print(jmena)
+# for jmeno in jmena:
+#     print(jmeno)
+# cisla.sort()   
+# print(cisla)
+# text = "Ahoj", "světe", "jak", "se", "máš?"
+# max = " ".join(text)
+# print(max) 
+# cisla = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# cisla = list(range(1, 11)) 
+# for cislo in cisla:
+#     if cislo % 2 == 0:  
+#         print(cislo)
+# users = [
+#     {'name': 'Hanna', 'age': 10, 'login': 'user56'},
+#     {'name': 'Mark', 'age': 15, 'login': 'usER111'},
+#     {'name': 'Jane', 'age': 17, 'login': 'superGirl'},
+#     {'name': 'Jack', 'age': 7, 'login': 'userJack'}
+# ]
+# def find_user_info(users, key, value):
+#     for user in users:
+#         if user[key] == value:
+#             print(f"Informace o uživateli: {user}")
+#             print(f"Věk uživatele: {user['age']}")
+#             return
+#     print(f"Uživatel s {key} = {value} nebyl nalezen.")
+# find_user_info(users, 'name', 'Mark')
+# find_user_info(users, 'name', 'NonExistent') 
+# countries = (
+#     ("Czechia", "Prague"),
+#     ("Slovakia", "Bratislava"),
+#     ("Germany", "Berlin"),
+#     ("Austria", "Vienna"),
+#     ("Poland", "Warsaw")
+# )
+
+# for country, capital in countries:
+#     print(f"Země: {country}, Hlavní město: {capital}")
+
+# def find_capital(country_name):
+#     for country, capital in countries:
+#         if country == country_name:
+#             return capital
+#     return "Země nenalezena"
+# hledana_zeme = input("Zadej název země: ")
+# nalezene_hlavni_mesto = find_capital(hledana_zeme)
+# print(f"Hlavní město země {hledana_zeme} je {nalezene_hlavni_mesto}")
+# dictionary
+# animals = {
+#     "kocka": "cat",
+#     "pes": "dog",
+#     "kralik": "rabbit",
+#     "kun": "horse",
+#     "mys": "mouse"
+# }
+
+# for cesky_nazev, anglicky_preklad in animals.items():
+#     print(f"Česky: {cesky_nazev}, Anglicky: {anglicky_preklad}")
+
+# def najdi_preklad(zviratko):
+#     if zviratko in animals:
+#         return animals[zviratko]
+#     else:
+#         return "Animal not found."
+
+# ceske_slovo = input("Zadej český název zvířete: ")
+# vysledek = najdi_preklad(ceske_slovo)
+# print(vysledek)
+ 
+# import os
+# path = r'C:\Users\gorkz\Documents\GitHub\Programov-n-homework'
+# file_name = 'test.txt'
+# full_path = os.path.join(path,file_name)
+
+# fileHandler = open("test.txt")
+# if fileHandler:
+#     print('File is open')
+# else:
+#     print('File is not open')
+
+# import os
+# path = r'C:\Users\gorkz\Documents\GitHub\Programov-n-homework'
+# file_name = 'test1.txt'
+# full_path = os.path.join(path,file_name)
+# try:
+#     fileHandler = open(full_path)
+#     print('File is open')
+# except FileNotFoundError:
+#     print("The file or path was not found. Please check the provided path.")
+# except IOError:
+#     print("An error occurred while opening or reading the file.")
+# finally:
+#     fileHandler.close()
+
+
+
+
+import os
+
+
+path = r'C:\Users\gorkz\Documents\GitHub\Programov-n-homework'
+file_name = 'test.txt'
+complete_path = os.path.join(path, file_name)
+
+
+with open(complete_path, 'r') as file:
+    original_text = file.read()
+
+def nahrad_text(text, stary_text, novy_text):
+    """Nahradí všechny výskyty starého textu novým textem v daném textu.
+
+    Args:
+        text (str): Základní text.
+        stary_text (str): Text, který chceme nahradit.
+        novy_text (str): Nový text, kterým nahradíme starý.
+
+    Returns:
+        str: Text s nahrazenými výskyty.
+    """
+    return text.replace(stary_text, novy_text)
+
+
+stary_text = "nahradit"
+novy_text = "nový text"
+
+
+novy_text = nahrad_text(original_text, stary_text, novy_text)
+
+
+print("Původní text:")
+print(original_text)
+print("\nNový text:")
+print(novy_text)
+
+
+
