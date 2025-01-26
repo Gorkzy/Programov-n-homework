@@ -1,0 +1,551 @@
+2025-01-25 15:25:56,279 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:25:56,283 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:25:56,285 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:25:56,285 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:25:56,285 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:25:56,285 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:25:56,285 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:25:56,315 - WARNING -  * Debugger is active!
+2025-01-25 15:25:56,315 - WARNING -  * Debugger is active!
+2025-01-25 15:25:56,315 - WARNING -  * Debugger is active!
+2025-01-25 15:25:56,315 - WARNING -  * Debugger is active!
+2025-01-25 15:25:56,315 - WARNING -  * Debugger is active!
+2025-01-25 15:25:56,315 - WARNING -  * Debugger is active!
+2025-01-25 15:25:56,323 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:25:56,323 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:25:56,323 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:25:56,323 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:25:56,323 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:32:08,270 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 15:32:08,629 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 15:32:08,631 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 15:32:08,638 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 15:32:08,638 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 15:32:08,638 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 15:32:22,097 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:32:22,106 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:32:22,111 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:32:22,126 - WARNING -  * Debugger is active!
+2025-01-25 15:32:22,133 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:32:22,136 - WARNING -  * Debugger is active!
+2025-01-25 15:32:22,140 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:32:22,145 - WARNING -  * Debugger is active!
+2025-01-25 15:32:22,147 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:32:22,159 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:32:22,177 - WARNING -  * Debugger is active!
+2025-01-25 15:32:22,187 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:32:22,247 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:32:22,249 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:32:22,264 - WARNING -  * Debugger is active!
+2025-01-25 15:32:22,265 - WARNING -  * Debugger is active!
+2025-01-25 15:32:22,269 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:32:22,270 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:32:22,339 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:32:22,354 - WARNING -  * Debugger is active!
+2025-01-25 15:32:22,357 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:34:34,865 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 15:34:34,865 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 15:34:34,867 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 15:34:34,867 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 15:34:34,867 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 15:34:34,867 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 15:34:34,867 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 15:34:48,347 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:34:48,351 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:34:48,376 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:34:48,377 - WARNING -  * Debugger is active!
+2025-01-25 15:34:48,383 - WARNING -  * Debugger is active!
+2025-01-25 15:34:48,385 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:34:48,391 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:34:48,405 - WARNING -  * Debugger is active!
+2025-01-25 15:34:48,412 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:34:48,416 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:34:48,423 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:34:48,437 - WARNING -  * Debugger is active!
+2025-01-25 15:34:48,443 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:34:48,451 - WARNING -  * Debugger is active!
+2025-01-25 15:34:48,455 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:34:48,476 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:34:48,496 - WARNING -  * Debugger is active!
+2025-01-25 15:34:48,498 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:34:48,562 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:34:48,578 - WARNING -  * Debugger is active!
+2025-01-25 15:34:48,580 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:35:23,286 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:35:23,327 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.169:5000
+2025-01-25 15:35:23,328 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-25 15:35:23,329 - INFO -  * Restarting with stat
+2025-01-25 15:35:29,252 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:35:29,275 - WARNING -  * Debugger is active!
+2025-01-25 15:35:29,275 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:36:52,516 - INFO - Received /predict request
+2025-01-25 15:36:52,517 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:36:52,517 - INFO - 192.168.0.104 - - [25/Jan/2025 15:36:52] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:36:54,032 - INFO - Received /predict request
+2025-01-25 15:36:54,032 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:36:54,032 - INFO - 192.168.0.104 - - [25/Jan/2025 15:36:54] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:36:56,575 - INFO - Received /predict request
+2025-01-25 15:36:56,576 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:36:56,576 - INFO - 192.168.0.104 - - [25/Jan/2025 15:36:56] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:37:24,855 - INFO - Received /predict request
+2025-01-25 15:37:24,855 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:37:24,855 - INFO - 192.168.0.104 - - [25/Jan/2025 15:37:24] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:37:26,262 - INFO - Received /predict request
+2025-01-25 15:37:26,274 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:37:26,274 - INFO - 192.168.0.104 - - [25/Jan/2025 15:37:26] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:37:27,729 - INFO - Received /predict request
+2025-01-25 15:37:27,729 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:37:27,729 - INFO - 192.168.0.104 - - [25/Jan/2025 15:37:27] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:37:28,441 - INFO - Received /predict request
+2025-01-25 15:37:28,453 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:37:28,457 - INFO - 192.168.0.104 - - [25/Jan/2025 15:37:28] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:42:55,975 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:42:56,015 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.169:5000
+2025-01-25 15:42:56,016 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-25 15:42:56,018 - INFO -  * Restarting with stat
+2025-01-25 15:43:01,893 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:43:01,910 - WARNING -  * Debugger is active!
+2025-01-25 15:43:01,921 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:52:46,871 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:52:46,903 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.169:5000
+2025-01-25 15:52:46,903 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-25 15:52:46,905 - INFO -  * Restarting with stat
+2025-01-25 15:52:52,856 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 15:52:52,872 - WARNING -  * Debugger is active!
+2025-01-25 15:52:52,875 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 15:54:15,880 - INFO - Received /predict request
+2025-01-25 15:54:15,880 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:54:15,881 - INFO - 192.168.0.104 - - [25/Jan/2025 15:54:15] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:54:17,050 - INFO - Received /predict request
+2025-01-25 15:54:17,050 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:54:17,051 - INFO - 192.168.0.104 - - [25/Jan/2025 15:54:17] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:54:43,904 - INFO - Received /predict request
+2025-01-25 15:54:43,904 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:54:43,920 - INFO - 192.168.0.104 - - [25/Jan/2025 15:54:43] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:54:44,790 - INFO - Received /predict request
+2025-01-25 15:54:44,790 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:54:44,800 - INFO - 192.168.0.104 - - [25/Jan/2025 15:54:44] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:54:44,800 - INFO - Received /predict request
+2025-01-25 15:54:44,800 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:54:44,800 - INFO - 192.168.0.104 - - [25/Jan/2025 15:54:44] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:39,450 - INFO - Received /predict request
+2025-01-25 15:56:39,453 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:39,456 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:39] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:42,145 - INFO - Received /predict request
+2025-01-25 15:56:42,145 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:42,156 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:42] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:44,884 - INFO - Received /predict request
+2025-01-25 15:56:44,884 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:44,889 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:44] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:46,786 - INFO - Received /predict request
+2025-01-25 15:56:46,786 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:46,790 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:46] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:47,390 - INFO - Received /predict request
+2025-01-25 15:56:47,394 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:47,394 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:47] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:47,881 - INFO - Received /predict request
+2025-01-25 15:56:47,881 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:47,881 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:47] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:49,876 - INFO - Received /predict request
+2025-01-25 15:56:49,876 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:49,892 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:49] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:50,709 - INFO - Received /predict request
+2025-01-25 15:56:50,709 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:50,709 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:50] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:51,940 - INFO - Received /predict request
+2025-01-25 15:56:51,940 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:51,940 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:51] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:52,266 - INFO - Received /predict request
+2025-01-25 15:56:52,266 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:52,266 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:52] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:52,456 - INFO - Received /predict request
+2025-01-25 15:56:52,456 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:52,456 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:52] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:52,649 - INFO - Received /predict request
+2025-01-25 15:56:52,649 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:52,649 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:52] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:52,810 - INFO - Received /predict request
+2025-01-25 15:56:52,810 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:52,826 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:52] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:53,022 - INFO - Received /predict request
+2025-01-25 15:56:53,024 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:53,024 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:53] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:53,182 - INFO - Received /predict request
+2025-01-25 15:56:53,182 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:53,182 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:53] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:55,531 - INFO - Received /predict request
+2025-01-25 15:56:55,531 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:55,531 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:55] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:56,145 - INFO - Received /predict request
+2025-01-25 15:56:56,154 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:56,154 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:56] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:56,940 - INFO - Received /predict request
+2025-01-25 15:56:56,940 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:56,940 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:56] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:56:57,339 - INFO - Received /predict request
+2025-01-25 15:56:57,339 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:56:57,339 - INFO - 192.168.0.104 - - [25/Jan/2025 15:56:57] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:57:00,223 - INFO - Received /predict request
+2025-01-25 15:57:00,223 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:57:00,223 - INFO - 192.168.0.104 - - [25/Jan/2025 15:57:00] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:57:00,773 - INFO - Received /predict request
+2025-01-25 15:57:00,773 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:57:00,773 - INFO - 192.168.0.104 - - [25/Jan/2025 15:57:00] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:57:01,072 - INFO - Received /predict request
+2025-01-25 15:57:01,074 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:57:01,075 - INFO - 192.168.0.104 - - [25/Jan/2025 15:57:01] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:57:01,779 - INFO - Received /predict request
+2025-01-25 15:57:01,779 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:57:01,779 - INFO - 192.168.0.104 - - [25/Jan/2025 15:57:01] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:57:15,060 - INFO - Received /predict request
+2025-01-25 15:57:15,060 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:57:15,060 - INFO - 192.168.0.104 - - [25/Jan/2025 15:57:15] "GET /predict HTTP/1.1" 200 -
+2025-01-25 15:59:09,523 - INFO - Received /predict request
+2025-01-25 15:59:09,523 - ERROR - Error in /predict endpoint: name 'requests' is not defined
+2025-01-25 15:59:09,533 - INFO - 192.168.0.104 - - [25/Jan/2025 15:59:09] "GET /predict HTTP/1.1" 200 -
+2025-01-25 16:02:01,118 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:02:01,118 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:02:01,313 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:02:01,313 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:02:01,318 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:02:01,318 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:02:01,318 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:02:01,336 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:02:01,342 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:02:03,129 - INFO -  * Restarting with stat
+2025-01-25 16:02:08,570 - INFO -  * Restarting with stat
+2025-01-25 16:02:08,575 - INFO -  * Restarting with stat
+2025-01-25 16:02:25,204 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:02:25,254 - WARNING -  * Debugger is active!
+2025-01-25 16:02:25,263 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:02:28,276 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:02:28,307 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:02:28,317 - WARNING -  * Debugger is active!
+2025-01-25 16:02:28,329 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:02:28,349 - WARNING -  * Debugger is active!
+2025-01-25 16:02:28,357 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:02:28,369 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:02:28,406 - WARNING -  * Debugger is active!
+2025-01-25 16:02:28,415 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:02:28,492 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:02:28,509 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:02:28,533 - WARNING -  * Debugger is active!
+2025-01-25 16:02:28,539 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:02:28,547 - WARNING -  * Debugger is active!
+2025-01-25 16:02:28,555 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:02:28,703 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:02:28,726 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:02:28,728 - WARNING -  * Debugger is active!
+2025-01-25 16:02:28,732 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:02:28,749 - WARNING -  * Debugger is active!
+2025-01-25 16:02:28,759 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:02:28,842 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:02:28,858 - WARNING -  * Debugger is active!
+2025-01-25 16:02:28,858 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:02:28,874 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:02:28,890 - WARNING -  * Debugger is active!
+2025-01-25 16:02:28,899 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:02:54,002 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:02:54,041 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.169:5000
+2025-01-25 16:02:54,042 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-25 16:02:54,043 - INFO -  * Restarting with stat
+2025-01-25 16:02:59,997 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:03:00,008 - WARNING -  * Debugger is active!
+2025-01-25 16:03:00,019 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:03:11,668 - INFO - Received /predict request
+2025-01-25 16:03:12,544 - INFO - Received /predict request
+2025-01-25 16:03:12,689 - INFO - Prediction successful: current_price=3.1183, predicted_price=3.1327993869781494
+2025-01-25 16:03:12,689 - INFO - 192.168.0.104 - - [25/Jan/2025 16:03:12] "GET /predict HTTP/1.1" 200 -
+2025-01-25 16:03:13,019 - INFO - Prediction successful: current_price=3.1182, predicted_price=3.1327056884765625
+2025-01-25 16:03:13,019 - INFO - 192.168.0.104 - - [25/Jan/2025 16:03:13] "GET /predict HTTP/1.1" 200 -
+2025-01-25 16:03:13,070 - INFO - Received /predict request
+2025-01-25 16:03:14,041 - INFO - Prediction successful: current_price=3.1181, predicted_price=3.1326119899749756
+2025-01-25 16:03:14,041 - INFO - 192.168.0.104 - - [25/Jan/2025 16:03:14] "GET /predict HTTP/1.1" 200 -
+2025-01-25 16:03:14,066 - INFO - Received /predict request
+2025-01-25 16:03:14,569 - INFO - Prediction successful: current_price=3.1181, predicted_price=3.1326119899749756
+2025-01-25 16:03:14,569 - INFO - 192.168.0.104 - - [25/Jan/2025 16:03:14] "GET /predict HTTP/1.1" 200 -
+2025-01-25 16:03:15,002 - INFO - Received /predict request
+2025-01-25 16:03:15,477 - INFO - Prediction successful: current_price=3.1183, predicted_price=3.1327993869781494
+2025-01-25 16:03:15,477 - INFO - 192.168.0.104 - - [25/Jan/2025 16:03:15] "GET /predict HTTP/1.1" 200 -
+2025-01-25 16:30:40,536 - INFO - Received /predict request
+2025-01-25 16:30:41,746 - INFO - Prediction successful: current_price=3.1303, predicted_price=3.1440417766571045
+2025-01-25 16:30:41,746 - INFO - 192.168.0.104 - - [25/Jan/2025 16:30:41] "GET /predict HTTP/1.1" 200 -
+2025-01-25 16:30:42,956 - INFO - Received /predict request
+2025-01-25 16:30:43,562 - INFO - Prediction successful: current_price=3.1306, predicted_price=3.1443228721618652
+2025-01-25 16:30:43,562 - INFO - 192.168.0.104 - - [25/Jan/2025 16:30:43] "GET /predict HTTP/1.1" 200 -
+2025-01-25 16:42:25,749 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:42:25,751 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:42:26,036 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:42:26,038 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:42:26,048 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:42:26,424 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:42:26,427 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:42:26,433 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:42:26,437 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:42:26,597 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\app.py', reloading
+2025-01-25 16:42:32,502 - INFO -  * Restarting with stat
+2025-01-25 16:42:32,742 - INFO -  * Restarting with stat
+2025-01-25 16:42:32,804 - INFO -  * Restarting with stat
+2025-01-25 16:42:32,908 - INFO -  * Restarting with stat
+2025-01-25 16:42:50,385 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:42:50,422 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:42:50,455 - WARNING -  * Debugger is active!
+2025-01-25 16:42:50,462 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:42:50,469 - WARNING -  * Debugger is active!
+2025-01-25 16:42:50,489 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:42:50,557 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:42:50,592 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:42:50,611 - WARNING -  * Debugger is active!
+2025-01-25 16:42:50,622 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:42:50,644 - WARNING -  * Debugger is active!
+2025-01-25 16:42:50,654 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:42:50,745 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:42:50,803 - WARNING -  * Debugger is active!
+2025-01-25 16:42:50,812 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:42:50,928 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:42:50,968 - WARNING -  * Debugger is active!
+2025-01-25 16:42:50,969 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:42:50,976 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:42:50,991 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:42:51,012 - WARNING -  * Debugger is active!
+2025-01-25 16:42:51,017 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:42:51,022 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:42:51,031 - WARNING -  * Debugger is active!
+2025-01-25 16:42:51,039 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:42:51,050 - INFO - Received /predict request
+2025-01-25 16:42:51,051 - WARNING -  * Debugger is active!
+2025-01-25 16:42:51,053 - INFO - Received /predict request
+2025-01-25 16:42:51,060 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:42:51,065 - INFO - Received /predict request
+2025-01-25 16:42:51,091 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:42:51,125 - WARNING -  * Debugger is active!
+2025-01-25 16:42:51,134 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:42:51,268 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 16:42:51,308 - WARNING -  * Debugger is active!
+2025-01-25 16:42:51,314 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 16:42:52,099 - INFO - Prediction successful: current_price=3.1349, predicted_price=3.148350954055786
+2025-01-25 16:42:52,102 - INFO - 192.168.0.104 - - [25/Jan/2025 16:42:52] "GET /predict HTTP/1.1" 200 -
+2025-01-25 16:42:52,104 - INFO - Prediction successful: current_price=3.1349, predicted_price=3.148350954055786
+2025-01-25 16:42:52,105 - INFO - 192.168.0.104 - - [25/Jan/2025 16:42:52] "GET /predict HTTP/1.1" 200 -
+2025-01-25 16:42:52,108 - INFO - Prediction successful: current_price=3.1349, predicted_price=3.148350954055786
+2025-01-25 16:42:52,109 - INFO - 192.168.0.104 - - [25/Jan/2025 16:42:52] "GET /predict HTTP/1.1" 200 -
+2025-01-25 16:43:04,920 - INFO - Received /predict request
+2025-01-25 16:43:05,603 - INFO - Prediction successful: current_price=3.1355, predicted_price=3.1489133834838867
+2025-01-25 16:43:05,603 - INFO - 192.168.0.104 - - [25/Jan/2025 16:43:05] "GET /predict HTTP/1.1" 200 -
+2025-01-25 17:03:34,395 - INFO - Received /predict request
+2025-01-25 17:03:35,033 - INFO - Prediction successful: current_price=3.1366, predicted_price=3.149944305419922
+2025-01-25 17:03:35,034 - INFO - 192.168.0.104 - - [25/Jan/2025 17:03:35] "GET /predict HTTP/1.1" 200 -
+2025-01-25 17:11:10,081 - INFO - Received /predict request
+2025-01-25 17:11:10,695 - INFO - Prediction successful: current_price=3.1355, predicted_price=3.1489133834838867
+2025-01-25 17:11:10,695 - INFO - 192.168.0.104 - - [25/Jan/2025 17:11:10] "GET /predict HTTP/1.1" 200 -
+2025-01-25 17:29:57,874 - INFO - Received /predict request
+2025-01-25 17:29:58,607 - INFO - Prediction successful: current_price=3.1303, predicted_price=3.1440417766571045
+2025-01-25 17:29:58,607 - INFO - 192.168.0.104 - - [25/Jan/2025 17:29:58] "GET /predict HTTP/1.1" 200 -
+2025-01-25 17:30:06,466 - INFO - Received /predict request
+2025-01-25 17:30:06,957 - INFO - Prediction successful: current_price=3.1308, predicted_price=3.144510269165039
+2025-01-25 17:30:06,957 - INFO - 192.168.0.104 - - [25/Jan/2025 17:30:06] "GET /predict HTTP/1.1" 200 -
+2025-01-25 17:30:08,549 - INFO - Received /predict request
+2025-01-25 17:30:09,157 - INFO - Prediction successful: current_price=3.1299, predicted_price=3.143667459487915
+2025-01-25 17:30:09,157 - INFO - 192.168.0.104 - - [25/Jan/2025 17:30:09] "GET /predict HTTP/1.1" 200 -
+2025-01-25 17:55:13,796 - INFO - Received /predict request
+2025-01-25 17:55:14,825 - INFO - Prediction successful: current_price=3.1251, predicted_price=3.1391704082489014
+2025-01-25 17:55:14,827 - INFO - 192.168.0.104 - - [25/Jan/2025 17:55:14] "GET /predict HTTP/1.1" 200 -
+2025-01-25 17:55:18,062 - INFO - Received /predict request
+2025-01-25 17:55:18,583 - INFO - Prediction successful: current_price=3.1255, predicted_price=3.13954496383667
+2025-01-25 17:55:18,583 - INFO - 192.168.0.104 - - [25/Jan/2025 17:55:18] "GET /predict HTTP/1.1" 200 -
+2025-01-25 19:04:04,739 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 19:04:04,794 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.169:5000
+2025-01-25 19:04:04,794 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-25 19:04:04,794 - INFO -  * Restarting with stat
+2025-01-25 19:04:07,063 - INFO - 127.0.0.1 - - [25/Jan/2025 19:04:07] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-25 19:04:07,266 - INFO - 127.0.0.1 - - [25/Jan/2025 19:04:07] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 403 -
+2025-01-25 19:04:10,855 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-25 19:04:10,878 - WARNING -  * Debugger is active!
+2025-01-25 19:04:10,882 - INFO -  * Debugger PIN: 132-360-742
+2025-01-25 19:05:02,151 - INFO - Received /predict request
+2025-01-25 19:05:02,964 - INFO - Prediction successful: current_price=3.1186, predicted_price=3.1330811977386475
+2025-01-25 19:05:02,966 - INFO - 192.168.0.104 - - [25/Jan/2025 19:05:02] "GET /predict HTTP/1.1" 200 -
+2025-01-25 19:05:04,476 - INFO - Received /predict request
+2025-01-25 19:05:04,979 - INFO - Prediction successful: current_price=3.1185, predicted_price=3.1329867839813232
+2025-01-25 19:05:04,980 - INFO - 192.168.0.104 - - [25/Jan/2025 19:05:04] "GET /predict HTTP/1.1" 200 -
+2025-01-25 19:06:26,843 - INFO - 127.0.0.1 - - [25/Jan/2025 19:06:26] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-25 19:06:26,939 - INFO - 127.0.0.1 - - [25/Jan/2025 19:06:26] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 403 -
+2025-01-25 19:06:32,639 - INFO - Received /predict request
+2025-01-25 19:06:33,155 - INFO - Prediction successful: current_price=3.1178, predicted_price=3.132331371307373
+2025-01-25 19:06:33,155 - INFO - 192.168.0.104 - - [25/Jan/2025 19:06:33] "GET /predict HTTP/1.1" 200 -
+2025-01-25 19:24:17,852 - INFO - Received /predict request
+2025-01-25 19:24:18,504 - INFO - Prediction successful: current_price=3.1199, predicted_price=3.13429856300354
+2025-01-25 19:24:18,515 - INFO - 192.168.0.104 - - [25/Jan/2025 19:24:18] "GET /predict HTTP/1.1" 200 -
+2025-01-25 19:55:46,547 - INFO - Received /predict request
+2025-01-25 19:55:47,338 - INFO - Prediction successful: current_price=3.1212, predicted_price=3.13551664352417
+2025-01-25 19:55:47,338 - INFO - 192.168.0.104 - - [25/Jan/2025 19:55:47] "GET /predict HTTP/1.1" 200 -
+2025-01-25 20:00:35,587 - INFO - Received /predict request
+2025-01-25 20:00:36,224 - INFO - Prediction successful: current_price=3.125, predicted_price=3.1390769481658936
+2025-01-25 20:00:36,224 - INFO - 192.168.0.104 - - [25/Jan/2025 20:00:36] "GET /predict HTTP/1.1" 200 -
+2025-01-25 20:00:40,351 - INFO - Received /predict request
+2025-01-25 20:00:40,997 - INFO - Prediction successful: current_price=3.1249, predicted_price=3.1389827728271484
+2025-01-25 20:00:40,997 - INFO - 192.168.0.104 - - [25/Jan/2025 20:00:40] "GET /predict HTTP/1.1" 200 -
+2025-01-25 20:00:43,571 - INFO - Received /predict request
+2025-01-25 20:00:44,593 - INFO - Prediction successful: current_price=3.1244, predicted_price=3.138514518737793
+2025-01-25 20:00:44,593 - INFO - 192.168.0.104 - - [25/Jan/2025 20:00:44] "GET /predict HTTP/1.1" 200 -
+2025-01-25 22:47:53,249 - INFO - Received /predict request
+2025-01-25 22:47:55,563 - INFO - Prediction successful: current_price=3.1297, predicted_price=3.143479585647583
+2025-01-25 22:47:55,563 - INFO - 192.168.0.104 - - [25/Jan/2025 22:47:55] "GET /predict HTTP/1.1" 200 -
+2025-01-25 22:48:17,799 - INFO - Received /predict request
+2025-01-25 22:48:19,402 - INFO - Prediction successful: current_price=3.1287, predicted_price=3.142542839050293
+2025-01-25 22:48:19,402 - INFO - 127.0.0.1 - - [25/Jan/2025 22:48:19] "GET /predict HTTP/1.1" 200 -
+2025-01-26 01:18:31,394 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.169:5000
+2025-01-26 01:18:31,394 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-26 01:18:31,394 - INFO -  * Restarting with stat
+2025-01-26 01:18:36,786 - WARNING -  * Debugger is active!
+2025-01-26 01:18:36,802 - INFO -  * Debugger PIN: 103-567-371
+2025-01-26 01:18:37,895 - INFO - Received /predict request
+2025-01-26 01:18:38,245 - INFO - Current price fetched: 3.1144
+2025-01-26 01:18:38,245 - INFO - Input for model: [[3.1144 3.1144]]
+2025-01-26 01:18:38,436 - INFO - Prediction: 3.12616229057312
+2025-01-26 01:18:38,436 - INFO - 192.168.0.104 - - [26/Jan/2025 01:18:38] "GET /predict HTTP/1.1" 200 -
+2025-01-26 01:18:38,581 - INFO - Received /predict request
+2025-01-26 01:18:39,018 - INFO - Current price fetched: 3.1144
+2025-01-26 01:18:39,018 - INFO - Input for model: [[3.1144 3.1144]]
+2025-01-26 01:18:39,085 - INFO - Prediction: 3.12616229057312
+2025-01-26 01:18:39,085 - INFO - 192.168.0.104 - - [26/Jan/2025 01:18:39] "GET /predict HTTP/1.1" 200 -
+2025-01-26 01:18:58,336 - INFO - Received /predict request
+2025-01-26 01:18:58,776 - INFO - Current price fetched: 3.1132
+2025-01-26 01:18:58,776 - INFO - Input for model: [[3.1132 3.1132]]
+2025-01-26 01:18:58,839 - INFO - Prediction: 3.125025749206543
+2025-01-26 01:18:58,839 - INFO - 192.168.0.104 - - [26/Jan/2025 01:18:58] "GET /predict HTTP/1.1" 200 -
+2025-01-26 01:19:01,759 - INFO - Received /predict request
+2025-01-26 01:19:02,276 - INFO - Current price fetched: 3.1131
+2025-01-26 01:19:02,276 - INFO - Input for model: [[3.1131 3.1131]]
+2025-01-26 01:19:02,340 - INFO - Prediction: 3.1249310970306396
+2025-01-26 01:19:02,340 - INFO - 192.168.0.104 - - [26/Jan/2025 01:19:02] "GET /predict HTTP/1.1" 200 -
+2025-01-26 01:19:56,914 - INFO - Received /predict request
+2025-01-26 01:19:57,341 - INFO - Current price fetched: 3.1132
+2025-01-26 01:19:57,341 - INFO - Input for model: [[3.1132 3.1132]]
+2025-01-26 01:19:57,399 - INFO - Prediction: 3.125025749206543
+2025-01-26 01:19:57,399 - INFO - 192.168.0.104 - - [26/Jan/2025 01:19:57] "GET /predict HTTP/1.1" 200 -
+2025-01-26 01:20:02,745 - INFO - Received /predict request
+2025-01-26 01:20:03,155 - INFO - Current price fetched: 3.1127
+2025-01-26 01:20:03,155 - INFO - Input for model: [[3.1127 3.1127]]
+2025-01-26 01:20:03,220 - INFO - Prediction: 3.124551773071289
+2025-01-26 01:20:03,228 - INFO - 192.168.0.104 - - [26/Jan/2025 01:20:03] "GET /predict HTTP/1.1" 200 -
+2025-01-26 01:20:17,030 - INFO - 127.0.0.1 - - [26/Jan/2025 01:20:17] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 01:20:17,147 - INFO - 127.0.0.1 - - [26/Jan/2025 01:20:17] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 403 -
+2025-01-26 01:20:24,391 - INFO - 127.0.0.1 - - [26/Jan/2025 01:20:24] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 01:20:24,465 - INFO - 127.0.0.1 - - [26/Jan/2025 01:20:24] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 403 -
+2025-01-26 01:20:26,050 - INFO - 127.0.0.1 - - [26/Jan/2025 01:20:26] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 01:20:26,120 - INFO - 127.0.0.1 - - [26/Jan/2025 01:20:26] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 403 -
+2025-01-26 01:20:26,867 - INFO - 127.0.0.1 - - [26/Jan/2025 01:20:26] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 01:20:26,940 - INFO - 127.0.0.1 - - [26/Jan/2025 01:20:26] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 403 -
+2025-01-26 01:21:05,704 - INFO - 127.0.0.1 - - [26/Jan/2025 01:21:05] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 01:21:05,765 - INFO - 127.0.0.1 - - [26/Jan/2025 01:21:05] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 403 -
+2025-01-26 01:21:09,774 - INFO - 127.0.0.1 - - [26/Jan/2025 01:21:09] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 01:21:09,841 - INFO - 127.0.0.1 - - [26/Jan/2025 01:21:09] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 403 -
+2025-01-26 01:21:10,643 - INFO - 127.0.0.1 - - [26/Jan/2025 01:21:10] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 01:21:10,711 - INFO - 127.0.0.1 - - [26/Jan/2025 01:21:10] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 403 -
+2025-01-26 01:21:49,980 - INFO - Received /predict request
+2025-01-26 01:21:50,408 - INFO - Current price fetched: 3.113
+2025-01-26 01:21:50,408 - INFO - Input for model: [[3.113 3.113]]
+2025-01-26 01:21:50,471 - INFO - Prediction: 3.124835968017578
+2025-01-26 01:21:50,471 - INFO - 192.168.0.104 - - [26/Jan/2025 01:21:50] "GET /predict HTTP/1.1" 200 -
+2025-01-26 01:22:11,986 - INFO - Received /predict request
+2025-01-26 01:22:12,439 - INFO - Current price fetched: 3.1123
+2025-01-26 01:22:12,439 - INFO - Input for model: [[3.1123 3.1123]]
+2025-01-26 01:22:12,518 - INFO - Prediction: 3.124173164367676
+2025-01-26 01:22:12,518 - INFO - 192.168.0.104 - - [26/Jan/2025 01:22:12] "GET /predict HTTP/1.1" 200 -
+2025-01-26 01:22:16,729 - INFO - Received /predict request
+2025-01-26 01:22:17,180 - INFO - Current price fetched: 3.1129
+2025-01-26 01:22:17,180 - INFO - Input for model: [[3.1129 3.1129]]
+2025-01-26 01:22:17,243 - INFO - Prediction: 3.124741315841675
+2025-01-26 01:22:17,243 - INFO - 192.168.0.104 - - [26/Jan/2025 01:22:17] "GET /predict HTTP/1.1" 200 -
+2025-01-26 01:22:22,696 - INFO - Received /predict request
+2025-01-26 01:22:23,099 - INFO - Current price fetched: 3.113
+2025-01-26 01:22:23,099 - INFO - Input for model: [[3.113 3.113]]
+2025-01-26 01:22:23,162 - INFO - Prediction: 3.124835968017578
+2025-01-26 01:22:23,162 - INFO - 192.168.0.104 - - [26/Jan/2025 01:22:23] "GET /predict HTTP/1.1" 200 -
+2025-01-26 01:23:06,986 - INFO - 127.0.0.1 - - [26/Jan/2025 01:23:06] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 01:23:07,055 - INFO - 127.0.0.1 - - [26/Jan/2025 01:23:07] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 403 -
+2025-01-26 01:23:08,919 - INFO - 127.0.0.1 - - [26/Jan/2025 01:23:08] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 01:23:08,979 - INFO - 127.0.0.1 - - [26/Jan/2025 01:23:08] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 403 -
+2025-01-26 01:24:21,302 - INFO - 127.0.0.1 - - [26/Jan/2025 01:24:21] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 01:24:21,374 - INFO - 127.0.0.1 - - [26/Jan/2025 01:24:21] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 403 -
+2025-01-26 01:24:41,609 - INFO - 127.0.0.1 - - [26/Jan/2025 01:24:41] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 01:24:41,678 - INFO - 127.0.0.1 - - [26/Jan/2025 01:24:41] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 403 -
+2025-01-26 01:28:54,532 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\test_api.py', reloading
+2025-01-26 01:28:55,125 - INFO -  * Restarting with stat
+2025-01-26 01:29:00,709 - WARNING -  * Debugger is active!
+2025-01-26 01:29:00,725 - INFO -  * Debugger PIN: 103-567-371
+2025-01-26 01:29:24,053 - INFO -  * Detected change in 'C:\\Users\\gorkz\\Documents\\GitHub\\Programov-n-homework\\xrp_price_prediction\\test_api.py', reloading
+2025-01-26 01:29:24,586 - INFO -  * Restarting with stat
+2025-01-26 01:29:29,973 - WARNING -  * Debugger is active!
+2025-01-26 01:29:29,990 - INFO -  * Debugger PIN: 103-567-371
+2025-01-26 01:29:59,136 - INFO - Received /predict request
+2025-01-26 01:30:00,564 - INFO - Current price fetched: 3.111
+2025-01-26 01:30:00,566 - INFO - Input for model: [[3.111 3.111]]
+2025-01-26 01:30:00,733 - INFO - Prediction: 3.122941493988037
+2025-01-26 01:30:00,733 - INFO - 127.0.0.1 - - [26/Jan/2025 01:30:00] "GET /predict HTTP/1.1" 200 -
+2025-01-26 10:53:01,609 - INFO - 192.168.0.104 - - [26/Jan/2025 10:53:01] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:53:02,821 - INFO - 192.168.0.104 - - [26/Jan/2025 10:53:02] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:53:04,643 - INFO - 192.168.0.104 - - [26/Jan/2025 10:53:04] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:53:07,755 - INFO - 192.168.0.104 - - [26/Jan/2025 10:53:07] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:53:08,708 - INFO - 192.168.0.104 - - [26/Jan/2025 10:53:08] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:53:09,257 - INFO - 192.168.0.104 - - [26/Jan/2025 10:53:09] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:53:09,449 - INFO - 192.168.0.104 - - [26/Jan/2025 10:53:09] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:53:09,642 - INFO - 192.168.0.104 - - [26/Jan/2025 10:53:09] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:53:09,819 - INFO - 192.168.0.104 - - [26/Jan/2025 10:53:09] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:53:09,996 - INFO - 192.168.0.104 - - [26/Jan/2025 10:53:09] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:53:29,060 - INFO - 192.168.0.104 - - [26/Jan/2025 10:53:29] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:53:39,789 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.169:5000
+2025-01-26 10:53:39,789 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-26 10:53:39,797 - INFO -  * Restarting with stat
+2025-01-26 10:53:44,726 - WARNING -  * Debugger is active!
+2025-01-26 10:53:44,726 - INFO -  * Debugger PIN: 103-567-371
+2025-01-26 10:53:49,360 - INFO - 192.168.0.104 - - [26/Jan/2025 10:53:49] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:54:20,344 - INFO - 192.168.0.104 - - [26/Jan/2025 10:54:20] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:54:42,106 - INFO - 192.168.0.104 - - [26/Jan/2025 10:54:42] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:54:42,731 - INFO - 192.168.0.104 - - [26/Jan/2025 10:54:42] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:54:43,126 - INFO - 192.168.0.104 - - [26/Jan/2025 10:54:43] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:54:43,333 - INFO - 192.168.0.104 - - [26/Jan/2025 10:54:43] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:54:43,492 - INFO - 192.168.0.104 - - [26/Jan/2025 10:54:43] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:54:43,666 - INFO - 192.168.0.104 - - [26/Jan/2025 10:54:43] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:55:00,174 - INFO - 127.0.0.1 - - [26/Jan/2025 10:55:00] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:55:00,292 - INFO - 127.0.0.1 - - [26/Jan/2025 10:55:00] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 403 -
+2025-01-26 10:55:05,205 - INFO - 192.168.0.104 - - [26/Jan/2025 10:55:05] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:55:23,211 - INFO - 127.0.0.1 - - [26/Jan/2025 10:55:23] "[31m[1mGET /predict HTTP/1.1[0m" 403 -
+2025-01-26 10:55:23,278 - INFO - 127.0.0.1 - - [26/Jan/2025 10:55:23] "[31m[1mGET /favicon.ico HTTP/1.1[0m" 403 -
+2025-01-26 10:56:00,851 - INFO - Received /predict request
+2025-01-26 10:56:01,396 - INFO - Current price fetched: 3.1117
+2025-01-26 10:56:01,396 - INFO - Input for model: [[3.1117 3.1117]]
+2025-01-26 10:56:01,492 - INFO - Prediction: 3.1236050128936768
+2025-01-26 10:56:01,492 - INFO - 192.168.0.104 - - [26/Jan/2025 10:56:01] "GET /predict HTTP/1.1" 200 -
+2025-01-26 10:56:03,191 - INFO - Received /predict request
+2025-01-26 10:56:03,656 - INFO - Current price fetched: 3.1117
+2025-01-26 10:56:03,656 - INFO - Input for model: [[3.1117 3.1117]]
+2025-01-26 10:56:03,719 - INFO - Prediction: 3.1236050128936768
+2025-01-26 10:56:03,720 - INFO - 192.168.0.104 - - [26/Jan/2025 10:56:03] "GET /predict HTTP/1.1" 200 -
+2025-01-26 10:56:06,718 - INFO - Received /predict request
+2025-01-26 10:56:07,363 - INFO - Current price fetched: 3.1116
+2025-01-26 10:56:07,363 - INFO - Input for model: [[3.1116 3.1116]]
+2025-01-26 10:56:07,447 - INFO - Prediction: 3.1235103607177734
+2025-01-26 10:56:07,447 - INFO - 192.168.0.104 - - [26/Jan/2025 10:56:07] "GET /predict HTTP/1.1" 200 -

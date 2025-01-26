@@ -19,7 +19,7 @@ model = Sequential([
 ])
 
 # Kompilace modelu
-model.compile(optimizer='adam', loss='mse', metrics=['mae'])
+model.compile(optimizer='adam', loss='mean_squared_error', metrics=['mean_absolute_error'])
 
 # Trénink modelu
 print("Začíná trénink modelu...")
