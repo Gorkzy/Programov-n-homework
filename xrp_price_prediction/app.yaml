@@ -1,2 +1,4 @@
 runtime: python39
 entrypoint: gunicorn -b :$PORT app:app
+env_variables:
+  TF_CPP_MIN_LOG_LEVEL: "2"
