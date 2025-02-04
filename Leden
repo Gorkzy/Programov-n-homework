@@ -520,42 +520,262 @@
 
 
 
-import os
+# import os
 
 
-path = r'C:\Users\gorkz\Documents\GitHub\Programov-n-homework'
-file_name = 'test.txt'
-complete_path = os.path.join(path, file_name)
+# path = r'C:\Users\gorkz\Documents\GitHub\Programov-n-homework'
+# file_name = 'test.txt'
+# complete_path = os.path.join(path, file_name)
 
 
-with open(complete_path, 'r') as file:
-    original_text = file.read()
+# with open(complete_path, 'r') as file:
+#     original_text = file.read()
 
-def nahrad_text(text, stary_text, novy_text):
-    """Nahradí všechny výskyty starého textu novým textem v daném textu.
+# def nahrad_text(text, stary_text, novy_text):
+#     """Nahradí všechny výskyty starého textu novým textem v daném textu.
 
-    Args:
-        text (str): Základní text.
-        stary_text (str): Text, který chceme nahradit.
-        novy_text (str): Nový text, kterým nahradíme starý.
+#     Args:
+#         text (str): Základní text.
+#         stary_text (str): Text, který chceme nahradit.
+#         novy_text (str): Nový text, kterým nahradíme starý.
 
-    Returns:
-        str: Text s nahrazenými výskyty.
-    """
-    return text.replace(stary_text, novy_text)
-
-
-stary_text = "nahradit"
-novy_text = "nový text"
+#     Returns:
+#         str: Text s nahrazenými výskyty.
+#     """
+#     return text.replace(stary_text, novy_text)
 
 
-novy_text = nahrad_text(original_text, stary_text, novy_text)
+# stary_text = "nahradit"
+# novy_text = "nový text"
 
 
-print("Původní text:")
-print(original_text)
-print("\nNový text:")
-print(novy_text)
+# novy_text = nahrad_text(original_text, stary_text, novy_text)
 
 
+# print("Původní text:")
+# print(original_text)
+# print("\nNový text:")
+# print(novy_text)
 
+# import os
+
+# # Cesta k původnímu souboru
+# source_file = "C:\\Users\\gorkz\\Documents\\GitHub\\vety.txt"  
+
+# destination_file = "vety.txt"
+
+# # Otevření původního souboru pro čtení
+# with open(source_file, 'r') as f:
+#     lines = f.readlines()  # Načtení všech řádků do seznamu
+
+
+# # Otevření nového souboru pro zápis
+# with open(destination_file, 'w') as f:
+#     # Zapsání prvních tří řádků do nového souboru
+#     for i in range(3):
+#         f.write(lines[i])
+
+# print("První tři řádky byly úspěšně zkopírovány do nového souboru.")
+# print(lines)
+# import os
+# path = "C:\\Users\\gorkz\\Documents\\GitHub\\vety.txt"
+# input_file_name = 'vety.txt'
+# output_file_name = 'bmw.txt'
+# input_full_path = os.path.join(path,input_file_name)
+# output_full_path = os.path.join(path,output_file_name)
+# try:
+#     #  read
+#     with open(input_full_path, "r", encoding="utf-8") as file:
+#         obsah = file.read()
+#     #split
+#     vety = obsah.split(".")
+#     # first 3
+#     prvni_tri_vety = vety[:3]
+#     # print(prvni_tri_vety)
+#     # join back
+#     output_str = ". ".join(prvni_tri_vety)
+#     if output_str:
+#         output_str += "."
+#     # print(output_str)
+#     #write
+#     with open(output_full_path, "w", encoding="utf-8") as file:
+#         file.write(output_str)
+# except FileNotFoundError:
+#     print(f"Soubor '{input_file_name}' nebyl nalezen.")
+# except Exception as e:
+#     print(f"Došlo k chybě: {e}")
+# class Pes:
+#     def __init__(self, jmeno, rasa):
+#         self.jmeno = jmeno
+#         self.rasa = rasa
+
+#     def stekej(self):
+#         print("Haf!")
+
+# # Vytvoření objektu (instance třídy)
+# pes1 = Pes("Rex", "Německý ovčák")
+# pes1.stekej()  # Výstup: Haf!
+
+
+# class Student:
+#     age = 20
+#     name = "John"
+
+# student1=Student()
+# print(student1.age)
+# print(student1)
+# print(student1.name)
+
+# class Student:
+#     spec = "Computer Science"
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#     def showInfo(self):
+#         return f"Name: {self.name}, Age: {self.age}"
+
+#     def showMsg(self, msgText):
+#         return f"Student {self.name} says {msgText}"
+# student1 = Student("Petr", 100)
+# student2 = Student("Max",39)
+# # print(student1.age)
+# # print(student2.name)
+# student1.name="Lojza"
+# print(student1.name)
+# print(student1.showInfo())   
+# print(student1.spec)
+# print(student2.showMsg("Čus, jsem magooor!"))
+# class Student:
+#     spec = "Computer science"
+#     def __init__(self, name, age):
+#         self.__name = None
+#         self.__age = None
+#         self.setName(name)
+#         self.setAge(age)
+#     def showInfo(self):
+#         return f"Student {self.name} is {self.age} years old."
+#     def showMsg(self, msgText):
+#         return f"Student {self.name} says '{msgText}'."
+#     # Setter
+#     def setAge(self, age):
+#         if age >= 18:
+#             self.__age = age
+#         else:
+#             print("Error: Age must be 18 or older. Age not updated.")
+#     def setName(self, name):
+#         self.__name = name
+#     # Getter
+#     def getAge(self):
+#         return self.age
+# student = Student("Alice", 20)
+# print(student.showInfo())
+# print(student.spec)
+# print(student.showMsg("hello"))
+# try:
+#     student.__name = "Bob"
+#     student.__age = 17
+# except AttributeError:
+#     print("Error: Cannot directly modify private attributes.")
+# print(student.showInfo())
+# # přes settery
+# student.setName("Bob")
+# student.setAge(22)
+# print(student.showInfo())
+# #getter
+# print(student.getAge())
+
+
+# # class Zvire:
+# #     def __init__(self, druh, pocet_nohou):
+# #         self.__druh = druh
+# #         self.__pocet_nohou = pocet_nohou
+         
+        
+
+# #     def showInfo(self):
+# #         print (f"Toto zvíře je: {self.__druh} a má {self.__pocet_nohou} nohou.")
+        
+# #     @property
+# #     def pocet_nohou(self):
+# #         return self.__pocet_nohou
+
+# #     @pocet_nohou.setter
+# #     def pocet_nohou(self, hodnota):
+# #         if 2 <= hodnota <= self.__max_nohy:
+# #             self.__pocet_nohou = hodnota
+# #         else:
+# #             print("Malo nohou. Zvíře musí mít minimálně 2 a maximálně", self.__max_nohy, "nohy.")
+# # pes = Zvire("pes", 4)
+# # kocka = Zvire("kočka", 4)
+# # pavouk = Zvire("pavouk", 16)
+
+
+# # pes.showInfo()
+# # kocka.showInfo()
+# # pavouk.showInfo()
+
+
+# # pes.pocet_nohou = 4
+# # pes.showInfo()
+
+# class Animal:
+#     def __init__(self, druh, pocet_nohou):
+#         self.druh = druh
+#         self.pocet_nohou = pocet_nohou
+#     def showInfo(self):
+#         """info about animal"""
+#         return f"Zvíře: {self.druh}, Počet nohou: {self.pocet_nohou}"
+#     def getDruh(self):
+#         return self.druh
+#     def setDruh(self, druh):
+#         if druh:
+#             self.druh = druh
+#         else:
+#             print("Error: Druh nemůže být prázdný.")
+#     def getPocetNohou(self):
+#         return self.pocet_nohou
+#     def setPocetNohou(self, pocet_nohou, max_nohou=101):
+#         if 2 <= pocet_nohou <= max_nohou:
+#             self.pocet_nohou = pocet_nohou
+#         else:
+#             print(f"Error: Počet nohou musí být mezi 2 a {max_nohou}. Počet nohou nebyl změněn.")
+# pes = Animal("Pes", 4)
+# kocka_cernobylska = Animal("kocurek",5)
+# print(pes.showInfo())
+# pes.setPocetNohou(1)
+# print(pes.showInfo())
+# pes.setPocetNohou(6)
+# print(pes.showInfo())
+
+# import random
+# class Animal:
+#     def __init__(self, druh, pocet_nohou):
+#         self.__druh = None
+#         self.__pocet_nohou = None
+#         self.setDruh(druh)
+#         self.setPocetNohou(pocet_nohou)
+#         self.__animalID = random.randint(1, 100)
+#     def __getID(self):
+#         return f"{self.__animalID}\n"
+#     def showInfo(self):
+#         return f"Zvíře ID: {self.__getID()} Zvíře: {self.__druh}, Počet nohou: {self.__pocet_nohou}"
+#     def getDruh(self):
+#         return self.__druh
+#     def setDruh(self, druh):
+#         if druh:
+#             self.__druh = druh
+#         else:
+#             print("Error: Druh nemůže být prázdný.")
+#     def getPocetNohou(self):
+#         return self.__pocet_nohou
+#     def setPocetNohou(self, pocet_nohou, max_nohou=101):
+#         if 2 <= pocet_nohou <= max_nohou:
+#             self.__pocet_nohou = pocet_nohou
+#         else:
+#             print(f"Error: Počet nohou musí být mezi 2 a {max_nohou}. Počet nohou nebyl změněn.")
+# pes = Animal("Pes", 4)
+# print(pes.showInfo())
+# pes.setPocetNohou(1)
+# print(pes.showInfo())
+# pes.setPocetNohou(6)
+# print(pes.showInfo())

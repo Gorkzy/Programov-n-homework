@@ -1,0 +1,238 @@
+# class Auto:
+#     def __init__(self, znacka, model, rok):
+#         self.znacka = znacka
+#         self.model = model
+#         self.rok = rok
+    
+#     def info(self):
+#         return f"{self.znacka} {self.model} z roku {self.rok}"
+    
+# moje_auto = Auto("Škoda", "Octavia", 2020)
+# print(moje_auto.info())
+
+
+# class Auto:
+#     def __init__(self, znacka, model, rok, vykon):
+#         self.znacka = znacka
+#         self.model = model
+#         self.rok = rok
+#         self.vykon = vykon
+    
+#     def info(self):
+#         return f"Moje auto je {self.znacka} {self.model} z roku {self.rok} a má výkon {self.vykon} kw"
+
+# moje_auto = Auto("BMW", "M2 Competition", 2021, 410)
+# print(moje_auto.info())  # BMW M2 Competition z roku 2020 a má výkon
+
+# class Osoba:
+#     pocet_osob = 0  # Atribut třídy
+    
+#     def __init__(self, jmeno, vek):
+#         self.jmeno = jmeno  # Atribut instance
+#         self.vek = vek
+#         Osoba.pocet_osob += 1
+    
+#     def info(self):
+#         return f"{self.jmeno} je {self.vek} let starý."
+    
+#     @classmethod
+#     def pocet(cls):
+#         return f"Počet osob: {cls.pocet_osob}"
+    
+#     @staticmethod
+#     def pozdrav():
+#         return "Ahoj světe!"
+
+# # Vytvoření objektů
+# osoba1 = Osoba("Jan", 30)
+# osoba2 = Osoba("Eva", 25)
+
+# # Volání metod
+# print(osoba1.info())
+# print(Osoba.pocet())
+# print(Osoba.pozdrav())
+# Ukol 1
+# class Auto:
+#     def __init__(self, model, rok, znacka, vykon, barva, cena):
+#         self.model = model
+#         self.rok = rok
+#         self.znacka = znacka
+#         self.vykon = vykon
+#         self.barva = barva
+#         self.cena = cena
+#     def celkove_info(self):
+#         return f"Model: {self.model}, Rok výroby: {self.rok}, Značka : {self.znacka}, Výkon: {self.vykon} kW, Barva : {self.barva}, Cena: {self.cena} Kč"
+
+#     def set_model(self, model):
+#         self.model = model
+    
+#     def set_rok(self, rok):
+#         self.rok = rok
+    
+#     def set_znacka(self, znacka):
+#         self.znacka = znacka
+    
+#     def set_vykon(self, vykon):
+#         self.vykon = vykon
+    
+#     def set_barva(self, barva):
+#         self.barva = barva
+    
+#     def set_cena(self, cena):
+#         self.cena = cena
+
+    
+#     def get_model(self, model):
+#         self.model = model
+    
+#     def get_rok(self, rok):
+#         self.rok = rok
+    
+#     def get_znacka(self, znacka):
+#         self.znacka = znacka
+    
+#     def get_vykon(self, vykon):
+#         self.vykon = vykon
+    
+#     def get_barva(self, barva):
+#         self.barva = barva
+    
+#     def get_cena(self, cena):
+#         self.cena = cena
+
+# moje_auto = Auto ("M2 Competition", 2021, "BMW", 410, "černá",1200000)
+# print(moje_auto.celkove_info())
+# moje_auto.set_barva("Bílá")
+# moje_auto.set_cena (1500000)
+
+# print("\nAktualizované informace o autě:")
+# print(f"Cena: {moje_auto.cena} Kč")
+# print(f"Barva: {moje_auto.barva}")
+# Ukol 2
+# class Kniha:
+#     def __init__(self, nazev, rok, vydavatel, zanr, autor, cena):
+#         self.nazev = nazev
+#         self.rok = rok
+#         self.vydavatel = vydavatel
+#         self.zanr = zanr
+#         self.autor = autor
+#         self.cena = cena
+
+#     def zobraz_info(self):
+#         return (f"Název: {self.nazev}\n"
+#                 f"Rok vydání: {self.rok}\n"
+#                 f"Vydavatel: {self.vydavatel}\n"
+#                 f"Žánr: {self.zanr}\n"
+#                 f"Autor: {self.autor}\n"
+#                 f"Cena: {self.cena} Kč")
+    
+    
+#     def nastav_nazev(self, nazev):
+#         self.nazev = nazev
+    
+#     def nastav_rok(self, rok):
+#         self.rok = rok
+    
+#     def nastav_vydavatel(self, vydavatel):
+#         self.vydavatel = vydavatel
+    
+#     def nastav_zanr(self, zanr):
+#         self.zanr = zanr
+    
+#     def nastav_autor(self, autor):
+#         self.autor = autor
+    
+#     def nastav_cena(self, cena):
+#         self.cena = cena
+
+#     def ziskej_nazev(self):
+#         return self.nazev
+    
+#     def ziskej_rok(self):
+#         return self.rok
+    
+#     def ziskej_vydavatel(self):
+#         return self.vydavatel
+    
+#     def ziskej_zanr(self):
+#         return self.zanr
+    
+#     def ziskej_autor(self):
+#         return self.autor
+    
+#     def ziskej_cena(self):
+#         return self.cena
+
+# moje_kniha = Kniha("Pán prstenů", 1954, "Allen & Unwin", "Fantasy", "J.R.R. Tolkien", 350)
+# print(moje_kniha.zobraz_info())
+
+# moje_kniha.nastav_cena(300)
+
+# print("Aktualizovaná cena knihy:")
+# print(f"Cena: {moje_kniha.ziskej_cena()} Kč")
+
+# Ukol 3
+
+# class Stadion:
+#     def __init__(self, nazev, otevreni, zeme, mesto, sedadla):
+#         self.nazev = nazev
+#         self.otevreni = otevreni
+#         self.zeme = zeme
+#         self.mesto = mesto
+#         self.sedadla = sedadla  
+
+#     def info(self):
+#         return f"Stadion: {self.nazev}, Otevřen: {self.otevreni}, Země: {self.zeme}, Město: {self.mesto}, Počet sedadel: {self.sedadla}"
+#     def vloz_nazev(self, nazev):
+#         self.nazev = nazev 
+#     def vloz_otevreni(self, otevreni):
+#         self.otevreni = otevreni
+#     def vloz_zeme(self, zeme):
+#         self.zeme = zeme
+#     def vloz_mesto(self, mesto):
+#         self.mesto = mesto
+#     def vloz_sedadla(self, sedadla):    
+#         self.sedadla = sedadla
+
+
+#     def ziskej_nazev(self):
+#         return self.nazev
+#     def ziskej_otevreni(self):
+#         return self.otevreni
+#     def ziskej_zeme(self):
+#         return self.zeme
+#     def ziskej_mesto(self):
+#         return self.mesto
+#     def ziskej_sedadla(self):
+#         return self.sedadla
+    
+# muj_Stadion = Stadion("Banik", 1985, "Česko", "Ostrava", 12000)
+# print(muj_Stadion.info()) 
+
+# muj_Stadion.vloz_sedadla(15000)
+# print("\nAktualizované informace o stadionu:")
+# print(f"Kapacita:{muj_Stadion.ziskej_sedadla()} diváků")
+
+class Auto:
+    def __init__(self, rychlost, vaha):
+        self.rychlost = rychlost
+        self.vaha = vaha
+    
+    def checkSpeedLimitObec(self):
+        limit = 50  
+        if self.rychlost > limit:
+            return f"Rychlost {self.rychlost} km/h je nad povolený limit {limit} km/h ve městě."
+        else:
+            return f"Rychlost {self.rychlost} km/h je v mezích povoleného limitu {limit} km/h ve městě."
+
+    def checkSpeedLimitDalnice(self):
+        limit = 130  
+        if self.rychlost > limit:
+            return f"Rychlost {self.rychlost} km/h je nad povolený limit {limit} km/h na dálnici."
+        else:
+            return f"Rychlost {self.rychlost} km/h je v mezích povoleného limitu {limit} km/h na dálnici."
+
+
+auto = Auto(rychlost=60, vaha=1500)
+print(auto.checkSpeedLimitObec())
+print(auto.checkSpeedLimitDalnice())
