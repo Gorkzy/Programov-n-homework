@@ -213,26 +213,108 @@
 # print("\nAktualizované informace o stadionu:")
 # print(f"Kapacita:{muj_Stadion.ziskej_sedadla()} diváků")
 
-class Auto:
-    def __init__(self, rychlost, vaha):
-        self.rychlost = rychlost
-        self.vaha = vaha
+# class Auto:
+#     def __init__(self, rychlost, vaha):
+#         self.rychlost = rychlost
+#         self.vaha = vaha
     
-    def checkSpeedLimitObec(self):
-        limit = 50  
-        if self.rychlost > limit:
-            return f"Rychlost {self.rychlost} km/h je nad povolený limit {limit} km/h ve městě."
-        else:
-            return f"Rychlost {self.rychlost} km/h je v mezích povoleného limitu {limit} km/h ve městě."
+#     def checkSpeedLimitObec(self):
+#         limit = 50  
+#         if self.rychlost > limit:
+#             return f"Rychlost {self.rychlost} km/h je nad povolený limit {limit} km/h ve městě."
+#         else:
+#             return f"Rychlost {self.rychlost} km/h je v mezích povoleného limitu {limit} km/h ve městě."
 
-    def checkSpeedLimitDalnice(self):
-        limit = 130  
-        if self.rychlost > limit:
-            return f"Rychlost {self.rychlost} km/h je nad povolený limit {limit} km/h na dálnici."
-        else:
-            return f"Rychlost {self.rychlost} km/h je v mezích povoleného limitu {limit} km/h na dálnici."
+#     def checkSpeedLimitDalnice(self):
+#         limit = 130  
+#         if self.rychlost > limit:
+#             return f"Rychlost {self.rychlost} km/h je nad povolený limit {limit} km/h na dálnici."
+#         else:
+#             return f"Rychlost {self.rychlost} km/h je v mezích povoleného limitu {limit} km/h na dálnici."
 
 
-auto = Auto(rychlost=60, vaha=1500)
-print(auto.checkSpeedLimitObec())
-print(auto.checkSpeedLimitDalnice())
+# auto = Auto(rychlost=60, vaha=1500)
+# print(auto.checkSpeedLimitObec())
+# print(auto.checkSpeedLimitDalnice())
+
+# class Student:
+#     def __init__(self, name, age):
+#         self.__name = None
+#         self.__age = None
+#         self.setName(name)
+#         self.setAge(age)
+#     def showInfo(self):
+#         return f"Student {self.name} is {self.age} years old."
+#     def showMsg(self, msgText):
+#         return f"Student {self.name} says '{msgText}'."
+#     # Setter
+#     def setAge(self, age):
+#         if age >= 18:
+#             self.__age = age
+#         else:
+#             print("Error: Age must be 18 or older. Age not updated.")
+#     def setName(self, name):
+#         self.__name = name
+#     # Getter
+#     def getAge(self):
+#         return self.age
+    
+
+#     @staticmethod
+#     def sayGreetings():
+#         return f"Hello, I am a student."
+# student = Student("Alice", 20)
+# print(student.showInfo())
+# print(student.spec)
+# print(student.showMsg("hello"))
+# print(student.sayGreetings())
+
+# import re
+# class myOperator:
+#     @staticmethod
+#     def incrementer(string):
+#         numbers = [float(s) for s in re.findall(r'-?\d+\.?\d*', string)]
+#         result = []
+#         for number in numbers:
+#             result.append(number + 1)
+#         return result
+#     @staticmethod
+#     def decrementer(string):
+#         numbers = [float(s) for s in re.findall(r'-?\d+\.?\d*', string)]
+#         result = []
+#         for number in numbers:
+#             result.append(number - 1)
+#         return result
+# userStr = "Extract 500 , 100.45, 23.1 and 1000 from my string"
+# print(myOperator.incrementer(userStr))
+# print(myOperator.decrementer(userStr))
+
+# class ObjectCenter:
+#     count = 0
+#     def __init__(self):
+#         ObjectCenter.count += 1
+#     @staticmethod
+#     def getCount():
+#         return ObjectCenter.count
+    
+# obj1 = ObjectCenter()
+# obj2 = ObjectCenter()
+# obj3 = ObjectCenter()
+# obj4 = ObjectCenter()
+# obj5 = ObjectCenter()
+# print(ObjectCenter.getCount())  # 5
+class Student:
+    def __init__(self, name, grades):
+        self.name = name
+        self.grades = grades
+    @staticmethod
+    def is_valid_age(age):
+        return 18 <= age <= 25
+    @staticmethod
+    def calculate_average(grades):
+        return sum(grades) / len(grades) if grades else 0
+# Příklad použití
+grades = [1, 2, 3, 4, 5]
+print(Student.calculate_average(grades))
+student = Student("Alice", [1, 2, 3, 4, 5])
+print(Student.calculate_average(student.grades))
