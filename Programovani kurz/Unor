@@ -318,14 +318,104 @@
 # print(Student.calculate_average(grades))
 # student = Student("Alice", [1, 2, 3, 4, 5])
 # print(Student.calculate_average(student.grades))
-class Student:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-    @classmethod
-    def from_string(cls, student_string):
-        name, age = student_string.split(", ")
-        return cls(name, int(age))
-student = Student.from_string("Alice, 21")
-print(student.name)
-print(student.age)
+# class Student:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#     @classmethod
+#     def from_string(cls, student_string):
+#         name, age = student_string.split(", ")
+#         return cls(name, int(age))
+# student = Student.from_string("Alice, 21")
+# print(student.name)
+# print(student.age)
+# class Film:
+#     def __init__(self, originalTitle, director, genre):
+#         self.originalTitle = originalTitle
+#         self.director = director
+#         self.genre = genre
+#     def showInfo(self):
+#         print("Original title: {}".format(self.originalTitle))
+#         print("Director: {}".format(self.director))
+#         print("Genre: {}".format(self.genre))
+# class Book:
+#     def __init__(self, title, author, pages):
+#         self.title = title
+#         self.author = author
+#         self.pages = pages
+#     def showInfo(self):
+#         print("Title: {}".format(self.title))
+#         print("Author: {}".format(self.author))
+#         print("Pages: {}".format(self.pages))
+# book1 = Book("Python Crash Course", "Eric Matthes", 624)
+# book2 = Book("Python", "Eric Matthes", 541)
+# film1 = Film("The Godfather", "Francis Ford Coppola", "Crime, drama")
+# for item in (film1, book1):
+#     item.showInfo()
+# class Book:
+#     def __init__(self, title, author, pages):
+#         self.title = title
+#         self.author = author
+#         self.pages = pages
+#     def showInfo(self):
+#         print("Title: {}".format(self.title))
+#         print("Author: {}".format(self.author))
+#         print("Pages: {}".format(self.pages))
+#     def __str__(self) -> str:
+#         return f"Title: {self.title}, Author: {self.author}, Pages: {self.pages}"
+#     def __eq__(self, value: object) -> bool:
+#         return self.title == value.title and self.author == value.author and self.pages == value.pages
+#     def __gt__(self, value: object) -> bool:
+#         return self.pages > value.pages
+#     def __add__(self, value: object) -> int:
+#         return self.pages + value.pages
+
+# book1 = Book("Python Crash Course", "Eric Matthes", 624)
+# book2 = Book("Python Crash Course", "Eric Matthes", 624)
+# book3 = Book("Automate the Boring Stuff", "Al Sweigart", 500)
+# # book1.showInfo()
+# # book2.showInfo()
+# # book3.showInfo()
+# print(book1)
+# print(book1 == book2)
+# print(book1 > book3)
+# print(book1 + book3)
+
+
+class Knihovna:
+    def __init__(self, nazev, adresa, pocet_knih):
+        self.nazev = nazev
+        self.adresa = adresa
+        self.pocet_knih = pocet_knih
+    def showInfo(self):
+        print("Název knihovny: {}".format(self.nazev))
+        print("Adresa: {}".format(self.adresa))
+        print("Počet knih: {}".format(self.pocet_knih)) 
+    def __str__(self) -> str:
+        return f"Název knihovny: {self.nazev}, Adresa: {self.adresa}, Počet knih: {self.pocet_knih}"
+    def __eq__(self, value: object) -> bool:
+        return self.nazev == value.nazev and self.adresa == value.adresa and self.pocet_knih == value.pocet_knih
+    def __gt__(self, value: object) -> bool:
+        return self.pocet_knih > value.pocet_knih
+    def __add__(self, value: object) -> 'Knihovna':
+        return Knihovna(self.nazev, self.adresa, self.pocet_knih + value.pocet_knih)
+    def __sub__(self, value: object) -> int:
+        return self.pocet_knih - value.pocet_knih
+    def __mul__(self, value: object) -> int:
+        return self.pocet_knih * value.pocet_knih
+    def __truediv__(self, value: object) -> float:
+        return self.pocet_knih / value.pocet_knih
+
+
+knihovna1 = Knihovna("Městská knihovna", "Ostrava", 14500)
+knihovna2 = Knihovna("Ostravska knihovna", "Ostrava", 19200)
+knihovna3 = Knihovna("Prazska knihovna", "Praha", 15600)
+print(knihovna1)
+print(knihovna1 == knihovna2)
+print(knihovna1 > knihovna3)
+print(knihovna1 < knihovna3)
+print(knihovna1 + knihovna3)
+print(knihovna1 - knihovna3)
+print(knihovna1 * knihovna3)
+print(knihovna1 / knihovna3)
+knihovna1.showInfo()  
