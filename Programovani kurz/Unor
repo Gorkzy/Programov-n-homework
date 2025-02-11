@@ -425,3 +425,298 @@
 
 # secret_key = secrets.token_urlsafe(32)  # Nebo jiná délka
 # print(secret_key)
+
+# import math
+
+# cislo = 15
+# print(math.sqrt(cislo))  # 3.87298334620741
+# print(math.pi) 
+# print(math.e)
+# print(math.ceil(cislo)) 
+# print(math.floor(cislo))  
+# class Pet
+# def __init__(self, pes, kocka, papousek, krecek):
+#     self.pes = pes
+#     self.kocka = kocka
+#     self.papousek = papousek
+#     self.krecek = krecek
+# def showInfo(self):
+#     print("Pes: {}".format(self.pes))
+#     print("Kočka: {}".format(self.kocka))
+#     print("Papoušek: {}".format(self.papousek))
+#     print("Křeček: {}".format(self.krecek))
+# zvuk = Pet("Haf", "Mňau", "Píp", "Piškvorky")
+# show = Pet("Rex", "Micka", "Kiki", "Kiki")
+# typ  = Pet("Pes", "Kočka", "Papoušek", "Křeček")
+# zvuk.showInfo()
+# show.showInfo() 
+# typ.showInfo()
+# class Pet:
+#     def __init__(self, name):
+#         """Initializes a pet with its name."""
+#         self.name = name
+#     def sound(self):
+#         """Method for the sound of the animal (not defined for the base class)."""
+#         raise NotImplementedError("This method must be implemented in a subclass.")
+#     def show(self):
+#         """Displays the name of the pet."""
+#         print(f"Animal's name: {self.name}")
+#     def type(self):
+#         """Displays the type of the pet."""
+#         raise NotImplementedError("This method must be implemented in a subclass.")
+# class Dog(Pet):
+#     _dog_count = 0  # Static variable to track the number of created dogs
+#     def __init__(self, name):
+#         super().__init__(name)
+#         Dog._dog_count += 1  # Increment the dog counter
+#     def sound(self):
+#         print(f"{self.name} says: Woof woof!")
+#     def type(self):
+#         print(f"{self.name} is a Dog")
+#     @staticmethod
+#     def get_dog_count():
+#         """Returns the number of created Dog objects."""
+#         return Dog._dog_count
+# class Cat(Pet):
+#     def sound(self):
+#         print(f"{self.name} says: Meow!")
+#     def type(self):
+#         print(f"{self.name} is a Cat")
+# class Parrot(Pet):
+#     def sound(self):
+#         print(f"{self.name} says: Tweet tweet!")
+#     def type(self):
+#         print(f"{self.name} is a Parrot")
+# class Hamster(Pet):
+#     def sound(self):
+#         print(f"{self.name} says: Squeak squeak!")
+#     def type(self):
+#         print(f"{self.name} is a Hamster")
+# dog1 = Dog("Rex")
+# dog2 = Dog("Buddy")
+# cat = Cat("Mittens")
+# parrot = Parrot("Polly")
+# hamster = Hamster("Hamtaro")
+# # Displaying information about each pet
+# print("\nAnimals and their sounds:")
+# # dog1.show()
+# dog1.sound()
+# # dog1.type()
+# # dog2.show()
+# dog2.sound()
+# # dog2.type()
+# # cat.show()
+# cat.sound()
+# # cat.type()
+# # parrot.show()
+# parrot.sound()
+# # parrot.type()
+# # hamster.show()
+# hamster.sound()
+# # hamster.type()
+# # Number of created Dog objects
+# print(f"\nNumber of created Dog objects: {Dog.get_dog_count()}")
+# def add_item(linked_list, value):
+#     """Adds an item to the end of the linked list."""
+#     linked_list.append(value)
+#     print(f"Value {value} added to the list.")
+
+
+# def delete_item(linked_list, value):
+#     """Deletes the first occurrence of an item from the linked list."""
+#     if value in linked_list:
+#         linked_list.remove(value)
+#         print(f"Value {value} removed from the list.")
+#     else:
+#         print(f"Value {value} not found in the list.")
+
+
+# def show_list(linked_list):
+#     """Displays the contents of the linked list."""
+#     if not linked_list:
+#         print("The list is empty.")
+#     else:
+#         print(" -> ".join(map(str, linked_list)) + " -> None")
+
+
+# def contains_item(linked_list, value):
+#     """Checks if the linked list contains a specific value."""
+#     if value in linked_list:
+#         print(f"The list contains {value}.")
+#     else:
+#         print(f"The list does not contain {value}.")
+
+
+# def replace_item(linked_list, old_value, new_value):
+#     """Replaces the first occurrence of old_value with new_value in the linked list."""
+#     if old_value in linked_list:
+#         index = linked_list.index(old_value)
+#         linked_list[index] = new_value
+#         print(f"Value {old_value} replaced with {new_value}.")
+#     else:
+#         print(f"Value {old_value} not found in the list.")
+
+
+# def menu():
+#     """Displays the menu and handles user input."""
+#     linked_list = []
+
+#     # Initial input from the user
+#     numbers = input("Enter a set of numbers separated by spaces: ").split()
+#     linked_list = list(map(int, numbers))
+
+#     while True:
+#         print("\nMenu:")
+#         print("1. Add an item to the list")
+#         print("2. Delete an item from the list")
+#         print("3. Show the list contents")
+#         print("4. Check if the list contains a value")
+#         print("5. Replace a value in the list")
+#         print("6. Exit")
+
+#         choice = input("Enter your choice: ")
+
+#         if choice == "1":
+#             value = int(input("Enter the value to add: "))
+#             add_item(linked_list, value)
+#         elif choice == "2":
+#             value = int(input("Enter the value to delete: "))
+#             delete_item(linked_list, value)
+#         elif choice == "3":
+#             print("List contents:")
+#             show_list(linked_list)
+#         elif choice == "4":
+#             value = int(input("Enter the value to check: "))
+#             contains_item(linked_list, value)
+#         elif choice == "5":
+#             old_value = int(input("Enter the value to replace: "))
+#             new_value = int(input("Enter the new value: "))
+#             replace_item(linked_list, old_value, new_value)
+#         elif choice == "6":
+#             print("Exiting the program.")
+#             break
+#         else:
+#             print("Invalid choice. Please try again.")
+
+
+# if __name__ == "__main__":
+#     menu()
+class Node:
+    """A class representing a single node in a singly linked list."""
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+
+class SinglyLinkedList:
+    """A class representing a singly linked list."""
+    def __init__(self):
+        self.head = None
+
+    def add(self, data):
+        """Adds a new node with the given data to the end of the list."""
+        new_node = Node(data)
+        if not self.head:
+            self.head = new_node
+        else:
+            current = self.head
+            while current.next:
+                current = current.next
+            current.next = new_node
+
+    def delete(self, data):
+        """Deletes the first node with the given data from the list."""
+        if not self.head:
+            print("The list is empty.")
+            return
+        if self.head.data == data:
+            self.head = self.head.next
+            return
+        current = self.head
+        while current.next and current.next.data != data:
+            current = current.next
+        if current.next:
+            current.next = current.next.next
+        else:
+            print(f"Value {data} not found in the list.")
+
+    def show(self):
+        """Displays the contents of the list."""
+        if not self.head:
+            print("The list is empty.")
+            return
+        current = self.head
+        while current:
+            print(current.data, end=" -> ")
+            current = current.next
+        print("None")
+
+    def contains(self, data):
+        """Checks if the list contains the given value."""
+        current = self.head
+        while current:
+            if current.data == data:
+                return True
+            current = current.next
+        return False
+
+    def replace(self, old_data, new_data):
+        """Replaces the first occurrence of old_data with new_data."""
+        current = self.head
+        while current:
+            if current.data == old_data:
+                current.data = new_data
+                return
+            current = current.next
+        print(f"Value {old_data} not found in the list.")
+
+
+def menu():
+    """Displays the menu and handles user input."""
+    linked_list = SinglyLinkedList()
+
+    # Initial input from the user
+    numbers = input("Enter a set of numbers separated by spaces: ").split()
+    for num in numbers:
+        linked_list.add(int(num))
+
+    while True:
+        print("\nMenu:")
+        print("1. Add an item to the list")
+        print("2. Delete an item from the list")
+        print("3. Show the list contents")
+        print("4. Check if the list contains a value")
+        print("5. Replace a value in the list")
+        print("6. Exit")
+
+        choice = input("Enter your choice: ")
+
+        if choice == "1":
+            value = int(input("Enter the value to add: "))
+            linked_list.add(value)
+            print(f"Value {value} added to the list.")
+        elif choice == "2":
+            value = int(input("Enter the value to delete: "))
+            linked_list.delete(value)
+        elif choice == "3":
+            print("List contents:")
+            linked_list.show()
+        elif choice == "4":
+            value = int(input("Enter the value to check: "))
+            if linked_list.contains(value):
+                print(f"The list contains {value}.")
+            else:
+                print(f"The list does not contain {value}.")
+        elif choice == "5":
+            old_value = int(input("Enter the value to replace: "))
+            new_value = int(input("Enter the new value: "))
+            linked_list.replace(old_value, new_value)
+        elif choice == "6":
+            print("Exiting the program.")
+            break
+        else:
+            print("Invalid choice. Please try again.")
+
+
+if __name__ == "__main__":
+    menu()
