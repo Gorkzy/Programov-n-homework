@@ -382,40 +382,46 @@
 # print(book1 + book3)
 
 
-class Knihovna:
-    def __init__(self, nazev, adresa, pocet_knih):
-        self.nazev = nazev
-        self.adresa = adresa
-        self.pocet_knih = pocet_knih
-    def showInfo(self):
-        print("Název knihovny: {}".format(self.nazev))
-        print("Adresa: {}".format(self.adresa))
-        print("Počet knih: {}".format(self.pocet_knih)) 
-    def __str__(self) -> str:
-        return f"Název knihovny: {self.nazev}, Adresa: {self.adresa}, Počet knih: {self.pocet_knih}"
-    def __eq__(self, value: object) -> bool:
-        return self.nazev == value.nazev and self.adresa == value.adresa and self.pocet_knih == value.pocet_knih
-    def __gt__(self, value: object) -> bool:
-        return self.pocet_knih > value.pocet_knih
-    def __add__(self, value: object) -> 'Knihovna':
-        return Knihovna(self.nazev, self.adresa, self.pocet_knih + value.pocet_knih)
-    def __sub__(self, value: object) -> int:
-        return self.pocet_knih - value.pocet_knih
-    def __mul__(self, value: object) -> int:
-        return self.pocet_knih * value.pocet_knih
-    def __truediv__(self, value: object) -> float:
-        return self.pocet_knih / value.pocet_knih
+# class Knihovna:
+#     def __init__(self, nazev, adresa, pocet_knih):
+#         self.nazev = nazev
+#         self.adresa = adresa
+#         self.pocet_knih = pocet_knih
+#     def showInfo(self):
+#         print("Název knihovny: {}".format(self.nazev))
+#         print("Adresa: {}".format(self.adresa))
+#         print("Počet knih: {}".format(self.pocet_knih)) 
+#     def __str__(self) -> str:
+#         return f"Název knihovny: {self.nazev}, Adresa: {self.adresa}, Počet knih: {self.pocet_knih}"
+#     def __eq__(self, value: object) -> bool:
+#         return self.nazev == value.nazev and self.adresa == value.adresa and self.pocet_knih == value.pocet_knih
+#     def __gt__(self, value: object) -> bool:
+#         return self.pocet_knih > value.pocet_knih
+#     def __add__(self, value: object) -> 'Knihovna':
+#         return Knihovna(self.nazev, self.adresa, self.pocet_knih + value.pocet_knih)
+#     def __sub__(self, value: object) -> int:
+#         return self.pocet_knih - value.pocet_knih
+#     def __mul__(self, value: object) -> int:
+#         return self.pocet_knih * value.pocet_knih
+#     def __truediv__(self, value: object) -> float:
+#         return self.pocet_knih / value.pocet_knih
 
 
-knihovna1 = Knihovna("Městská knihovna", "Ostrava", 14500)
-knihovna2 = Knihovna("Ostravska knihovna", "Ostrava", 19200)
-knihovna3 = Knihovna("Prazska knihovna", "Praha", 15600)
-print(knihovna1)
-print(knihovna1 == knihovna2)
-print(knihovna1 > knihovna3)
-print(knihovna1 < knihovna3)
-print(knihovna1 + knihovna3)
-print(knihovna1 - knihovna3)
-print(knihovna1 * knihovna3)
-print(knihovna1 / knihovna3)
-knihovna1.showInfo()  
+# knihovna1 = Knihovna("Městská knihovna", "Ostrava", 14500)
+# knihovna2 = Knihovna("Ostravska knihovna", "Ostrava", 19200)
+# knihovna3 = Knihovna("Prazska knihovna", "Praha", 15600)
+# print(knihovna1)
+# print(knihovna1 == knihovna2)
+# print(knihovna1 > knihovna3)
+# print(knihovna1 < knihovna3)
+# print(knihovna1 + knihovna3)
+# print(knihovna1 - knihovna3)
+# print(knihovna1 * knihovna3)
+# print(knihovna1 / knihovna3)
+# knihovna1.showInfo()  
+
+# import os
+# import secrets
+
+# secret_key = secrets.token_urlsafe(32)  # Nebo jiná délka
+# print(secret_key)
