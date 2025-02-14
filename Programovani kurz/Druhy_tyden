@@ -1,0 +1,196 @@
+# class StringStack:
+#     def __init__(self, size):
+#         """Inicializuje zásobník s pevnou velikostí."""
+#         self.stack = []
+#         self.size = size
+
+#     def push(self, string):
+#         """Vloží řetězec do zásobníku."""
+#         if len(self.stack) >= self.size:
+#             return "Stack is full."
+#         self.stack.append(string)
+#         return f"'{string}' added to the stack."
+
+#     def pop(self):
+#         """Odebere a vrátí řetězec ze zásobníku."""
+#         if not self.stack:
+#             return "Stack is empty."
+#         return self.stack.pop()
+
+#     def count(self):
+#         """Vrátí počet řetězců v zásobníku."""
+#         return len(self.stack)
+
+#     def is_empty(self):
+#         """Vrátí True, pokud je zásobník prázdný."""
+#         return len(self.stack) == 0
+
+#     def is_full(self):
+#         """Vrátí True, pokud je zásobník plný."""
+#         return len(self.stack) == self.size
+
+#     def clear(self):
+#         """Vymaže zásobník."""
+#         self.stack.clear()
+#         return "Stack cleared."
+
+#     def peek(self):
+#         """Vrátí horní řetězec zásobníku, aniž by jej odebral."""
+#         if not self.stack:
+#             return "Stack is empty."
+#         return self.stack[-1]
+
+# def menu():
+#     """Zobrazí nabídku pro interakci s uživatelem se zásobníkem."""
+#     stack_size = int(input("Enter the size of the stack: "))
+#     stack = StringStack(stack_size)
+#     while True:
+#         print("\nMenu:")
+#         print("1. Push a string to the stack")
+#         print("2. Pop a string from the stack")
+#         print("3. Count strings in the stack")
+#         print("4. Check if the stack is empty")
+#         print("5. Check if the stack is full")
+#         print("6. Clear the stack")
+#         print("7. Peek the top string without removing it")
+#         print("8. Exit")
+#         choice = input("Choose an option: ")
+
+#         if choice == "1":
+#             string = input("Enter a string to push: ")
+#             print(stack.push(string))
+#         elif choice == "2":
+#             print(stack.pop())
+#         elif choice == "3":
+#             print(f"Number of strings in stack: {stack.count()}")
+#         elif choice == "4":
+#             print(f"Stack is empty: {stack.is_empty()}")
+#         elif choice == "5":
+#             print(f"Stack is full: {stack.is_full()}")
+#         elif choice == "6":
+#             print(stack.clear())
+#         elif choice == "7":
+#             print(f"Top string in stack: {stack.peek()}")
+#         elif choice == "8":
+#             print("Exiting...")
+#             break
+#         else:
+#             print("Invalid choice, please try again.")
+
+# if __name__ == "__main__":
+#     menu()
+# import math
+
+# class Kruh:
+#     def __init__(self, polomer):
+#         self.polomer = polomer
+
+#     def __eq__(self, other):
+#         if isinstance(other, Kruh):
+#             return self.polomer == other.polomer
+#         return False
+
+#     def __gt__(self, other):
+#         if isinstance(other, Kruh):
+#             return self.polomer > other.polomer
+#         return False
+
+#     def __lt__(self, other):
+#         if isinstance(other, Kruh):
+#             return self.polomer < other.polomer
+#         return False
+
+#     def __ge__(self, other):
+#         if isinstance(other, Kruh):
+#             return self.polomer >= other.polomer
+#         return False
+
+#     def __le__(self, other):
+#         if isinstance(other, Kruh):
+#             return self.polomer <= other.polomer
+#         return False
+
+#     def __add__(self, other):
+#         if isinstance(other, (int, float)):  
+#             return Kruh(self.polomer + other)
+#         elif isinstance(other, Kruh): 
+#             return Kruh(self.polomer + other.polomer)
+#         else:
+#             raise TypeError("Lze pouze s číslem nebo kruhem.")
+
+#     def __sub__(self, other):
+#         if isinstance(other, (int, float)): 
+#             return Kruh(self.polomer - other)
+#         elif isinstance(other, Kruh): 
+#             return Kruh(self.polomer - other.polomer)
+#         else:
+#             raise TypeError("Lze pouze s číslem nebo kruhem.")
+
+#     def __iadd__(self, other):
+#         if isinstance(other, (int, float)): 
+#             self.polomer += other
+#             return self
+#         elif isinstance(other, Kruh): 
+#             self.polomer += other.polomer
+#             return self
+#         else:
+#             raise TypeError("Lze pouze s číslem nebo kruhem.")
+
+#     def __isub__(self, other):
+#         if isinstance(other, (int, float)): 
+#             self.polomer -= other
+#             return self
+#         elif isinstance(other, Kruh): 
+#             self.polomer -= other.polomer
+#             return self
+#         else:
+#             raise TypeError("Lze číslo nebo kruhem.")
+
+#     def __str__(self): 
+#         return f"Kruh s poloměrem {self.polomer}"
+
+# kruh1 = Kruh(5)
+# kruh2 = Kruh(5)
+# kruh3 = Kruh(8)
+
+# print(kruh1 == kruh2) 
+# print(kruh1 == kruh3) 
+# print(kruh1 < kruh3) 
+# print(kruh1 > kruh3) 
+# kruh1 += 2
+# print(kruh1)  
+# kruh1 -= 3
+# print(kruh1)  
+# kruh1 = kruh1 + kruh3
+# print(kruh1) 
+# kruh1 = kruh1 - kruh3
+# print(kruh1) 
+# kruh1 += kruh3
+# print(kruh1) 
+# kruh1 -= kruh3
+# print(kruh1)
+# 
+# 
+class Byt:
+    def __init__(self, plocha, cena):
+        self.plocha = plocha    
+        self.cena = cena  
+
+    def __eq__(self, other):
+        return isinstance(other, Byt) and self.plocha == other.plocha
+   
+    def __ne__(self, other):
+        return isinstance(other, Byt) and self.plocha != other.plocha
+    def __gt__(self, other):
+        return isinstance(other, Byt) and self.cena > other.cena
+
+    def __repr__(self):
+        return f"Byt(plocha={self.plocha}, cena={self.cena})"
+
+byt1 = Byt(70, 150000)
+byt2 = Byt(70, 160000)
+byt3 = Byt(80, 155000)
+
+print("byt1 == byt2:", byt1 == byt2)  
+print("byt1 != byt3:", byt1 != byt3)  
+print("byt2 > byt3:", byt2 > byt3)    
