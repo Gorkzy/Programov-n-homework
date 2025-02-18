@@ -1,0 +1,33 @@
+# try:
+#    while True:
+#         heslo = input("Zadej heslo: ").strip()
+#         if heslo == "tajne":
+#             print("Správné heslo!")
+#             break
+#         else:
+#             print("Špatné heslo!")
+# except KeyboardInterrupt:
+#     print("Ukončeno uživatelem")
+# try: 
+#     cislo1 = int(input("Zadej první číslo: "))
+#     cislo2 = int(input("Zadej druhé číslo: "))
+#     vysledek_deleni = cislo1/cislo2
+#     print(f"Výsledek delní je {vysledek_deleni}")
+# except ZeroDivisionError:
+#     print("Nulou nelze dělit!")
+# except ValueError:
+#     print("Zadávej pouze čísla!")
+# cisla = [1, 11, 2, 22, 3, 4, 7, 15, 8]
+# for cislo in cisla:
+#     if cislo % 2 == 0:
+#         print(cislo)
+
+# heslo = "BMW"
+# zadane_heslo = ""
+# while zadane_heslo != heslo:
+#     zadane_heslo = input("Zadej heslo: ").lower()
+#     if zadane_heslo == heslo.lower():
+#         print("Správné heslo!")
+#         break
+#     else:
+#         print("Špatné heslo!")  

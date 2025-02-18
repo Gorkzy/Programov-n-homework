@@ -171,26 +171,252 @@
 # print(kruh1)
 # 
 # 
-class Byt:
-    def __init__(self, plocha, cena):
-        self.plocha = plocha    
-        self.cena = cena  
+# class Byt:
+#     def __init__(self, plocha, cena):
+#         self.plocha = plocha    
+#         self.cena = cena  
 
-    def __eq__(self, other):
-        return isinstance(other, Byt) and self.plocha == other.plocha
+#     def __eq__(self, other):
+#         return isinstance(other, Byt) and self.plocha == other.plocha
    
-    def __ne__(self, other):
-        return isinstance(other, Byt) and self.plocha != other.plocha
-    def __gt__(self, other):
-        return isinstance(other, Byt) and self.cena > other.cena
+#     def __ne__(self, other):
+#         return isinstance(other, Byt) and self.plocha != other.plocha
+#     def __gt__(self, other):
+#         return isinstance(other, Byt) and self.cena > other.cena
+
+#     def __repr__(self):
+#         return f"Byt(plocha={self.plocha}, cena={self.cena})"
+
+# byt1 = Byt(70, 150000)
+# byt2 = Byt(70, 160000)
+# byt3 = Byt(80, 155000)
+
+# print("byt1 == byt2:", byt1 == byt2)  
+# print("byt1 != byt3:", byt1 != byt3)  
+# print("byt2 > byt3:", byt2 > byt3)    
+
+# def task1():
+#     print("Úkol 1: Práce se seznamem")
+#     cisla_input = input("Zadej cisla oddělená mezerou: ")
+#     seznam = [int(x) for x in cisla_input.split()]
+
+#     while True:
+#         print("\nMenu:")
+#         print("1 - Pridat nové číslo do seznamu")
+#         print("2 - Smazat všechny výskyty čisla ze seznamu")
+#         print("3 - Zobrazit obsah seznamu")
+#         print("4 - Zkontrolovat zda seznam obsahuje danou hodnotu")
+#         print("5 - Nahradit hodnotu v seznamu")
+#         print("6 - Konec")
+#         volba = input("Vyber možnost: ")
+
+#         if volba == '1':
+#             try:
+#                 nove_cislo = int(input("Zadej cislo, které chceš přidat: "))
+#                 if nove_cislo in seznam:
+#                     print("Toto číslo už tu je. Nepřidáváme ho.")
+#                 else:
+#                     seznam.append(nove_cislo)
+#                     print("Číslo bylo přidáno.")
+#             except ValueError:
+#                 print("Neplatny vstup. Zadej celé číslo.")
+
+#         elif volba == '2':
+#             try:
+#                 smazat_cislo = int(input("Zadej cislo, které chceš smazat: "))
+#                 pocet_pred = len(seznam)
+#                 seznam = [x for x in seznam if x != smazat_cislo]
+#                 pocet_po = len(seznam)
+#                 print(f"Bylo smazáno {pocet_pred - pocet_po} vyskytu čísla {smazat_cislo}.")
+#             except ValueError:
+#                 print("Neplatný vstup. Zadej cele číslo.")
+
+#         elif volba == '3':
+#             smer = input("Chceš zobrazit seznam od začátku (zadej 'z') nebo od konce (zadej 'k')? ")
+#             if smer.lower() == 'z':
+#                 print("Seznam:", seznam)
+#             elif smer.lower() == 'k':
+#                 print("Seznam:", seznam[::-1])
+#             else:
+#                 print("Neplatná volba.")
+
+#         elif volba == '4':
+#             try:
+#                 hledane_cislo = int(input("Zadej číslo, které chceš vyhledat: "))
+#                 if hledane_cislo in seznam:
+#                     print(f"Číslo {hledane_cislo} se v seznamu nachází.")
+#                 else:
+#                     print(f"cislo {hledane_cislo} v seznamu nenalezeno.")
+#             except ValueError:
+#                 print("Neplatný vstup. Zadej celé čislo.")
+
+#         elif volba == '5':
+#             try:
+#                 stara_hodnota = int(input("Zadej hodnotu, kterou chceš nahradit: "))
+#                 nova_hodnota = int(input("Zadej novou hodnotu: "))
+#                 nahrada = input("Nahradit pouze první výskyt ('1') nebo všechny výskyty ('2')? ")
+#                 if nahrada == '1':
+#                     try:
+#                         index = seznam.index(stara_hodnota)
+#                         seznam[index] = nova_hodnota
+#                         print("První výskyt byl nahrazen.")
+#                     except ValueError:
+#                         print("Hodnota nebyla nalezena.")
+#                 elif nahrada == '2':
+#                     pocet = 0
+#                     for i in range(len(seznam)):
+#                         if seznam[i] == stara_hodnota:
+#                             seznam[i] = nova_hodnota
+#                             pocet += 1
+#                     if pocet > 0:
+#                         print(f"Bylo nahrazeno {pocet} vyskytu.")
+#                     else:
+#                         print("Hodnota nebyla nalezena.")
+#                 else:
+#                     print("Neplatná volba.")
+#             except ValueError:
+#                 print("Neplatnx vstup. Zadej celé číslo.")
+
+#         elif volba == '6':
+#             print("Konec programu ukolu 1.")
+#             break
+#         else:
+#             print("Neplatná volba. Zkus to znovu.")
+
+# if __name__ == "__main__":
+#     task1()
+# class StringStack:
+#     def __init__(self, capacity):
+#         self.capacity = capacity
+#         self.stack = []
+
+#     def push(self, item):
+#         if self.is_full():
+#             print("Zásobník je plný! Nelze vložit nový.")
+#         else:
+#             self.stack.append(item)
+#             print(f"Řetězec '{item}' byl vložen do zásobníku.")
+
+#     def pop(self):
+#         if self.is_empty():
+#             print("Zásobník je prázdný! Nelze odebrat řetězec.")
+#             return None
+#         else:
+#             item = self.stack.pop()
+#             print(f"Řetezec '{item}' byl odebren ze zásobníku.")
+#             return item
+
+#     def count(self):
+#         return len(self.stack)
+
+#     def is_empty(self):
+#         return len(self.stack) == 0
+
+#     def is_full(self):
+#         return len(self.stack) >= self.capacity
+
+#     def clear(self):
+#         self.stack.clear()
+#         print("Zásobník byl vyčištěn.")
+
+#     def peek(self):
+#         if self.is_empty():
+#             print("Zásobník je prázdný!")
+#             return None
+#         else:
+#             return self.stack[-1]
+
+#     def __repr__(self):
+#         return f"StringStack({self.stack})"
+
+
+# def task2():
+#     print("Ukol 2: Zásobník retezců s fixní velikostí")
+#     try:
+#         capacity = int(input("Zadej kapacitu: "))
+#     except ValueError:
+#         print("Neplatna kapacita. Pouzivame výchozi hodnotu 5.")
+#         capacity = 5
+
+#     stack = StringStack(capacity)
+class DynamicStringStack:
+    def __init__(self):
+        self.stack = []
+
+    def push(self, item):
+        self.stack.append(item)
+        print(f"Řetězec '{item}' byl vložen do zásobníku.")
+
+    def pop(self):
+        if self.is_empty():
+            print("Zásobník je prázdný! Nelze odebrat řetězec.")
+            return None
+        else:
+            item = self.stack.pop()
+            print(f"Řetězec '{item}' byl odebrán ze zásobníku.")
+            return item
+
+    def count(self):
+        return len(self.stack)
+
+    def is_empty(self):
+        return len(self.stack) == 0
+
+    def clear(self):
+        self.stack.clear()
+        print("Zásobník byl vyčištěn.")
+
+    def peek(self):
+        if self.is_empty():
+            print("Zásobník je prázdný!")
+            return None
+        else:
+            return self.stack[-1]
 
     def __repr__(self):
-        return f"Byt(plocha={self.plocha}, cena={self.cena})"
+        return f"DynamicStringStack({self.stack})"
 
-byt1 = Byt(70, 150000)
-byt2 = Byt(70, 160000)
-byt3 = Byt(80, 155000)
 
-print("byt1 == byt2:", byt1 == byt2)  
-print("byt1 != byt3:", byt1 != byt3)  
-print("byt2 > byt3:", byt2 > byt3)    
+def task3():
+    print("Ukol 3: Dynamický zásobník řetězců (neomezená velikost)")
+    stack = DynamicStringStack()
+
+    while True:
+        print("\nMenu dynamického zaobníku:")
+        print("1 - Vložit retězec do zásobníku")
+        print("2 - Odebrat retezzec ze zasobníku")
+        print("3 - Zobrazit počet řetězců v zásobníku")
+        print("4 - Zkontrolovat,je-li zásobník prázdný")
+        print("5 - Vyčistit zásobník")
+        print("6 - Získat vrchní řetězec (peek)")
+        print("7 - Konec")
+
+        volba = input("Vyběr možnost: ")
+
+        if volba == '1':
+            retezec = input("Zadej řetězec: ")
+            stack.push(retezec)
+        elif volba == '2':
+            stack.pop()
+        elif volba == '3':
+            print("Počet řetězcu:", stack.count())
+        elif volba == '4':
+            if stack.is_empty():
+                print("Zásobnik je prazdny.")
+            else:
+                print("Zasióbnik je prazdny.")
+        elif volba == '5':
+            stack.clear()
+        elif volba == '6':
+            top = stack.peek()
+            if top is not None:
+                print("Vrchni retezec:", top)
+        elif volba == '7':
+            print("Bye, bye.")
+            break
+        else:
+            print("Ne, zkus to znovu.")
+
+
+if __name__ == "__main__":
+    task3()
