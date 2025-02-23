@@ -1,3 +1,0 @@
-self.jmeno = jmeno¨
-self.vek = vek
-self.obor = obor

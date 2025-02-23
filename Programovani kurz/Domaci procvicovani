@@ -31,3 +31,55 @@
 #         break
 #     else:
 #         print("Špatné heslo!")  
+
+# import pickle
+
+# data= {"Jméno": "Maxim", "Příjmení": "Pachomov", "Věk":39, "Bydliště": "Ostrava"}
+# with open ("data.pkl", "wb") as file:
+#     pickle.dump(data, file)
+
+# print("Data byla uložena do souboru 'data.pkl'.") 
+
+
+# with open("data.pkl", "rb") as file: 
+#     loaded_data = pickle.load(file)
+# print("Načtena dara ze souboru ", loaded_data)
+# # 1. Zadání
+
+import pickle
+
+
+# class Osoba:
+#     def __init__(self, jméno, příjmení, věk, bydliště):
+#         self.jméno = jméno
+#         self.příjmení = příjmení
+#         self.věk = věk
+#         self.bydliště = bydliště
+#     def __repr__(self):
+#         return f"Osoba {self.jméno} {self.příjmení} je ve věku {self.věk} a bydlí v {self.bydliště}."
+# osoba = Osoba("Maxim", "Pachomov", 39, "Ostrava")
+
+
+# with open("osoba.pkl", "wb") as file:
+#     pickle.dump(osoba, file)
+# print("Data byla uložena do souboru 'osoba.pkl'.")
+
+# with open("osoba.pkl", "rb") as file:
+#     loaded_osoba = pickle.load(file)
+# print("Načtena data ze souboru: ", loaded_osoba)
+# # 2. Zadání
+import json
+
+osoba = {"jméno": "Maxim", "příjmení": "Pachomov", "věk": 39, "bydliště": "Ostrava"}
+
+with open("osoba.json", "w", encoding="utf-8") as file:
+    json.dump(osoba, file, ensure_ascii=False, indent=4)
+print("Data byla uložena do souboru 'osoba.json'.") 
+
+
+with open("osoba.json", "r", encoding="utf-8") as file:
+    loaded_osoba = json.load(file)
+print("Načtena data ze souboru: ", loaded_osoba)
+
+json_string = json.dumps(osoba, ensure_ascii=False, indent=4)
+print(json_string)

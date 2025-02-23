@@ -1,0 +1,122 @@
+# import json
+
+# employees_dictemployees_dict = {
+#     "company": "ABC Corp",
+#     "employees": [
+#         {
+#             "name": "John Doe",
+#             "age": 30,
+#             "department": "Sales",
+#             "skills": ["negotiation", "communication", "CRM"]
+#         },
+#         {
+#             "name": "Jane Smith",
+#             "age": 35,
+#             "department": "Marketing",
+#             "skills": ["SEO", "content creation", "branding"]
+#         }
+#     ]
+# } 
+# with open("employees.json", "w", encoding="utf-8") as file:
+#     json.dump(employees_dictemployees_dict, file, ensure_ascii=False, indent=4)
+                                          
+# with open("employees.json", "r", encoding="utf-8") as file:
+#     employees_dict = json.load(file)
+
+
+# print(employees_dict)
+
+
+# print(f"Company: {employees_dict['company']}")
+# for employee in employees_dict["employees"]:
+#     print(f"Name: {employee['name']}, Age: {employee['age']}, Department: {employee['department']}, Skills: {', '.join(employee['skills'])}")
+
+import json
+import os
+def create_path(file_name):
+    script_dir = os.path.dirname(os.path.realpath(__file__))
+    return os.path.join(script_dir, file_name)
+def save_to_json(file_name, data):
+    """Uloží slovník do JSON souboru."""
+    with open(create_path(file_name), "w", encoding="utf-8") as file:
+        json.dump(data, file, ensure_ascii=False, indent=4)
+    print(f":floppy_disk: Data uložena do '{file_name}'.")
+def load_from_json(file_name):
+    """Načte slovník z JSON souboru."""
+    if os.path.exists(create_path(file_name)):
+        with open(create_path(file_name), "r", encoding="utf-8") as file:
+            return json.load(file)
+    else:
+        print(f":warning: Soubor '{file_name}' neexistuje. Vytváří se nový slovník.")
+        return {}
+def main():
+    file_name = "employees.json"
+    employees_dict = {
+        "company": "ABC Corp",
+        "employees": [
+            {
+                "name": "John Doe",
+                "age": 30,
+                "department": "Sales",
+                "skills": ["negotiation", "communication", "CRM"]
+            },
+            {
+                "name": "Jane Smith",
+                "age": 35,
+                "department": "Marketing",
+                "skills": ["SEO", "content creation", "branding"]
+            }
+        ]
+    }
+    save_to_json(file_name, employees_dict)
+    loaded_data = load_from_json(file_name)
+    print(":open_file_folder: Načtená data ze souboru:")
+    print(json.dumps(loaded_data, indent=4, ensure_ascii=False))
+if __name__ == "__main__":
+    main()
+
+import json
+import pickle
+
+class Address:
+    def __init__(self, city, street, apartment):
+        self.city = city
+        self.street = street
+        self.apartment = apartment
+
+    def __str__(self):
+        return f"{self.city}{self.street}{self.apartment}"
+
+    def to_dict(self):
+        return {
+            "city": self.city,
+            "street": self.street,
+            "apartment": self.apartment
+        }
+
+class Human:
+    def __init__(self, name, last_name, address):
+        self.name = name
+        self.last_name = last_name
+        self.address = address
+
+    def __str__(self):
+        return f"{self.name}{self.last_name}{self.address}"
+
+    def to_dict(self):
+        return {
+            "name": self.name,
+            "last_name": self.last_name,
+            "address": self.address.to_dict()
+        }
+
+first_obj = Human("Marc", "Dylan", Address("New York", "Mulberry Street 162", "33b"))
+
+serialized = json.dumps(first_obj.to_dict())
+print(f"Serialized object:\n\n{serialized}\n\n")
+
+deserialized = json.loads(serialized)
+
+second_obj = Human(deserialized["name"], deserialized["last_name"], Address(**deserialized["address"]))
+
+print(f"Deserialized object:\n\n{second_obj}")

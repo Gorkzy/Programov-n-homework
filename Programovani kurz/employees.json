@@ -1,0 +1,25 @@
+{
+    "company": "ABC Corp",
+    "employees": [
+        {
+            "name": "John Doe",
+            "age": 30,
+            "department": "Sales",
+            "skills": [
+                "negotiation",
+                "communication",
+                "CRM"
+            ]
+        },
+        {
+            "name": "Jane Smith",
+            "age": 35,
+            "department": "Marketing",
+            "skills": [
+                "SEO",
+                "content creation",
+                "branding"
+            ]
+        }
+    ]
+}
