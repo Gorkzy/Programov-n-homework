@@ -1,0 +1,148 @@
+# import pickle
+# import os
+
+# class CountryCapitalManager:
+#     def __init__(self, filename="country_capitals.pkl"):
+#         self.data = {}
+#         self.filename = filename
+#         self.load_data()
+
+#     def add_data(self, country, capital):
+#         self.data[country] = capital
+#         self.save_data()
+
+#     def delete_data(self, country):
+#         if country in self.data:
+#             del self.data[country]
+#             self.save_data()
+#         else:
+#             print(f"Země '{country}' nenalezena.")
+
+#     def find_data(self, country):
+#         return self.data.get(country, f"Země '{country}' nenalezena.")
+
+#     def edit_data(self, country, new_capital):
+#         if country in self.data:
+#             self.data[country] = new_capital
+#             self.save_data()
+#         else:
+#             print(f"Země '{country}' nenalezena.")
+
+#     def save_data(self):
+#         with open(self.filename, "wb") as f:
+#             pickle.dump(self.data, f)
+
+#     def load_data(self):
+#         if os.path.exists(self.filename):
+#             with open(self.filename, "rb") as f:
+#                 self.data = pickle.load(f)
+
+# # Ukázkové použití
+# country_manager = CountryCapitalManager()
+# country_manager.add_data("Česká republika", "Praha")
+# country_manager.add_data("Slovensko", "Bratislava")
+# print(country_manager.find_data("Česká republika"))
+# country_manager.edit_data("Slovensko", "Nové hlavní město")
+# print(country_manager.find_data("Slovensko"))
+# country_manager.delete_data("Česká republika")
+# print(country_manager.find_data("Česká republika"))
+# import pickle
+
+# class SpravceKapelAlb:
+#     def __init__(self, nazev_souboru="kapely_alba.pkl"):
+#         self.data = {}
+#         self.nazev_souboru = nazev_souboru
+#         self.nacti_data()
+
+#     def pridej_data(self, kapela, album):
+#         self.data[kapela] = album
+#         self.uloz_data()
+
+#     def smaz_data(self, kapela):
+#         if kapela in self.data:
+#             del self.data[kapela]
+#             self.uloz_data()
+#         else:
+#             print(f"Kapela '{kapela}' nenalezena.")
+
+#     def najdi_data(self, kapela):
+#         return self.data.get(kapela, f"Kapela '{kapela}' nenalezena.")
+
+#     def uprav_data(self, kapela, nove_album):
+#         if kapela in self.data:
+#             self.data[kapela] = nove_album
+#             self.uloz_data()
+#         else:
+#             print(f"Kapela '{kapela}' nenalezena.")
+
+#     def uloz_data(self):
+#         with open(self.nazev_souboru, "wb") as f:
+#             pickle.dump(self.data, f)
+
+#     def nacti_data(self):
+#         try:
+#             with open(self.nazev_souboru, "rb") as f:
+#                 self.data = pickle.load(f)
+#         except FileNotFoundError:
+#             pass 
+
+
+# spravce = SpravceKapelAlb()
+# spravce.pridej_data("Queen", "A Night at the Opera")
+# spravce.pridej_data("Beatles", "Abbey Road")
+# print(spravce.najdi_data("Queen"))
+# spravce.uprav_data("Beatles", "Nové album")
+# print(spravce.najdi_data("Beatles"))
+# spravce.smaz_data("Queen")
+# print(spravce.najdi_data("Queen"))
+import json
+
+class SpravceKapelAlb:
+    def __init__(self, nazev_souboru="kapely_alba.json"):
+        self.data = {}
+        self.nazev_souboru = nazev_souboru
+        self.nacti_data()
+
+    def pridej_data(self, kapela, album):
+        self.data[kapela] = album
+        self.uloz_data()
+
+    def smaz_data(self, kapela):
+        if kapela in self.data:
+            del self.data[kapela]
+            self.uloz_data()
+        else:
+            print(f"Kapela '{kapela}' nenalezena.")
+
+    def najdi_data(self, kapela):
+        return self.data.get(kapela, f"Kapela '{kapela}' nenalezena.")
+
+    def uprav_data(self, kapela, nove_album):
+        if kapela in self.data:
+            self.data[kapela] = nove_album
+            self.uloz_data()
+        else:
+            print(f"Kapela '{kapela}' nenalezena.")
+
+    def uloz_data(self):
+        with open(self.nazev_souboru, "w") as f:
+            json.dump(self.data, f, indent=4, ensure_ascii=False) # indent=4 pro hezčí formátování, ensure_ascii=False pro češtinu
+
+    def nacti_data(self):
+        try:
+            with open(self.nazev_souboru, "r") as f:
+                self.data = json.load(f)
+        except FileNotFoundError:
+            pass  # Soubor neexistuje, začínáme s prázdnými daty
+        except json.JSONDecodeError: # Pokud je soubor poskozeny, zaciname s prazdnymi daty
+            self.data = {}
+
+# Ukázkové použití
+spravce = SpravceKapelAlb()
+spravce.pridej_data("Queen", "A Night at the Opera")
+spravce.pridej_data("Beatles", "Abbey Road")
+print(spravce.najdi_data("Queen"))
+spravce.uprav_data("Beatles", "Nové album")
+print(spravce.najdi_data("Beatles"))
+spravce.smaz_data("Queen")
+print(spravce.najdi_data("Queen"))

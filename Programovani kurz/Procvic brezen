@@ -1,0 +1,47 @@
+import pickle
+
+HISTORY_FILE = "history_file.pkl"
+def load_history():
+    try: 
+        with open(HISTORY_FILE, "rb") as file:
+            return pickle.load(file)
+    except (FileNotFoundError, EOFError):
+        return []
+    
+def save_history(history):
+    with open(HISTORY_FILE, "wb") as file:
+        pickle.dump(history,file)
+    
+
+def main():
+    history = load_history()
+    print("Historie načtená", history)
+
+    while True:
+        print("\n Vyběr možnosti: [1] Přidat příkaz | [2] Vrátit zpět | [3] Zobrazit historii | [4] Uložit a ukončit")
+        choise = input("Vyber mořnost:").strip()
+        if choise == "1":
+            command = input("Zadej příkaz:").strip()
+            history.append(command)
+            print("Příkaz přidán, {command}")
+
+        elif choise == "2":
+            if history:
+                removed_command = history.pop()
+                print(f"Příkaz {removed_command} byl odebrán")
+            
+            else:
+                print("Historie je prázdná")
+        
+        elif choise == "3":
+            print("Historie příkazů:", history)
+
+        elif choise == "4":
+            save_history(history)
+            print("istorie uložena.Ukončuji program")
+            break
+        else:
+            print("❌ Neplatná volba. Zkus to znovu.")
+
+if __name__ == "__main__":
+    main()

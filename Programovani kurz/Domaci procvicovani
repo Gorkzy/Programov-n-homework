@@ -68,18 +68,69 @@ import pickle
 #     loaded_osoba = pickle.load(file)
 # print("Načtena data ze souboru: ", loaded_osoba)
 # # 2. Zadání
-import json
+# import json
 
-osoba = {"jméno": "Maxim", "příjmení": "Pachomov", "věk": 39, "bydliště": "Ostrava"}
+# osoba = {"jméno": "Maxim", "příjmení": "Pachomov", "věk": 39, "bydliště": "Ostrava"}
 
-with open("osoba.json", "w", encoding="utf-8") as file:
-    json.dump(osoba, file, ensure_ascii=False, indent=4)
-print("Data byla uložena do souboru 'osoba.json'.") 
+# with open("osoba.json", "w", encoding="utf-8") as file:
+#     json.dump(osoba, file, ensure_ascii=False, indent=4)
+# print("Data byla uložena do souboru 'osoba.json'.") 
 
 
-with open("osoba.json", "r", encoding="utf-8") as file:
-    loaded_osoba = json.load(file)
-print("Načtena data ze souboru: ", loaded_osoba)
+# with open("osoba.json", "r", encoding="utf-8") as file:
+#     loaded_osoba = json.load(file)
+# print("Načtena data ze souboru: ", loaded_osoba)
 
-json_string = json.dumps(osoba, ensure_ascii=False, indent=4)
-print(json_string)
+# json_string = json.dumps(osoba, ensure_ascii=False, indent=4)
+# print(json_string)
+
+import pickle
+
+HISTORY_FILE = "history.pkl"
+
+def load_history():
+    
+    try:
+        with open(HISTORY_FILE, "rb") as file:
+            return pickle.load(file)
+    except (FileNotFoundError, EOFError):
+        return [] 
+
+def save_history(history):
+    
+    with open(HISTORY_FILE, "wb") as file:
+        pickle.dump(history, file)
+
+def main():
+    history = load_history()
+    print("Historie načtena:", history)
+
+    while True:
+        print("\n Možnosti: [1] Přidat příkaz | [2] Vrátit zpět | [3] Zobrazit historii | [4] Uložit a ukončit")
+        choice = input(" Vyber možnost: ").strip()
+
+        if choice == "1":
+            command = input("Zadej nový příkaz: ").strip()
+            history.append(command)  
+            print(f"Příkaz přidán: {command}")
+
+        elif choice == "2":
+            if history:
+                removed_command = history.pop()  
+                print(f"Příkaz vrácen zpět: {removed_command}")
+            else:
+                print("Není žádný příkaz k vrácení.")
+
+        elif choice == "3":
+            print("Historie příkazů:", history)
+
+        elif choice == "4":
+            save_history(history)  
+            print("Historie uložena. Program se ukončuje.")
+            break
+
+        else:
+            print("Neplatná volba. Zkus to znovu.")
+
+if __name__ == "__main__":
+    main()
